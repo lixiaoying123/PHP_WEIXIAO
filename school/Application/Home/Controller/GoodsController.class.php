@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: dujianbo
  * Date: 2016/11/14
- * Time: 14:00
+ * Time: 14
  */
  
 namespace Home\Controller;

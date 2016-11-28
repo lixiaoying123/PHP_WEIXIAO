@@ -1,0 +1,31 @@
+
+.logo{
+
+    height: 0px;
+    margin:  auto;/*外边距*/
+    background-image: url(__PUBLIC__/Home/images/logo.gif);/*添加背景图片*/
+    background-repeat:no-repeat;/*背景只显示一次*/
+
+}
+.ssb{
+    width: 200px;
+    height: 30px;
+    background-color: #f4f4f4;
+    border-style: solid;/*边框实线*/
+    border-width: 1px;/*边框宽*/
+    border-color:#8c6ea4;/*边框颜色*/
+    margin-top: 26px;
+    margin-right: 1px;
+    float:right;
+}
+.ss{
+    width: 43px;
+    height: 32px;
+    border-style:none;
+    margin-top: 26px;
+    float: right;
+    background-image: url(images/ss.gif);
+    background-position:right;
+}
+
+#paixu{margin:0px 0px 0px 0px;}

@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>个人中心</title>
+    <meta name="keywords" content="这里填写关键词" />
+    <meta name="description" content="这里填写描述" />
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css" type="text/css" media="all" />
+    <!--[if lt IE 9]><script type="text/javascript" src="../js/html5.js"></script><![endif]-->
+</head>
+
+<body >
+
+
+
+<include file="public:header"/>
+<!-- 查找最顶级栏目  -->
+<section id="single">
+    <!-- 查找子栏目  -->
+    <div class="cat_title">
+        <div class="wrapper">
+            <h2><strong>SELF</strong>个人中心</h2>
+            <p>我们是谁？<br/>Who are we?</p>
+        </div>
+    </div>
+    <div class="category">
+        <div class="wrapper">
+            <h2 style="font-size: 30px;">个人信息</h2>
+
+            <ul class="catbtn">
+
+            </ul>
+        </div>
+    </div>
+    <article class="serv_detailed">
+        <div id="detailed"> <ul style="font-size: 20px;">
+            <li>用户名：{$info[0][username]}</li>
+            </br>
+            <li>学院：{$info[0][userclass]}</li></br>
+            <li><a href="__MODULE__/Goods/self/user_id/{$info[0][user_id]}" style="font-size: 30px;">商品</a>&nbsp&nbsp
+                <a href="__MODULE__/Lost/self/user_id/{$info[0][user_id]}" style="font-size: 30px;">物品</a>&nbsp&nbsp
+            </li>
+        </ul>
+
+
+        </div>
+        <div id="case_footer"></div>
+    </article>
+</section>
+<include file="public:footer"/>
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.1.8.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.plugin.min.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="../js/killie6.js"></script>
+<![endif]-->
+
+</body>
+</html>

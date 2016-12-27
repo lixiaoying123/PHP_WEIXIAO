@@ -9,43 +9,32 @@
     <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="__PUBLIC__/Home/css/goodslist.css" type="text/css" media="all" />
     <!--[if lt IE 9]><script type="text/javascript" src="__PUBLIC__/Home/js/html5.js" ></script><![endif]-->
+    <style type="text/css">
+        #caseslist .cat_title .wrapper a{
+            text-decoration:none ;
+            font-size:15px;
+            text-align:left
+        }
+        .leftmenu a:active,
+.leftmenu a:visited,
+.leftmenu a:link {
+    display: block;
+    text-decoration: none;
+    margin: 6px 10px 6px 0px;
+    padding: 2px 6px 2px 6px;
+    color: #00527f;
+    background-color: #d9e8f3;
+    border: 1px solid #004266;
+}
+
+.leftmenu a:hover {
+    color: red;
+    background-color: #8cbbda;
+}
+    </style>
 </head>
 <body>
-<header>
-    <div id="navbg"></div>
-    <div class="wrapper">
-        <h1 class="logo">
-            <a href="index.htm"  title="微校">
-                <img src="__PUBLIC__/Home/images/logo.png" width="213" height="36" alt="" />
-            </a>
-        </h1>
-        <nav>
-            <ul>
-                <li class="home"><a href="__MODULE__/index/index" >首页<span>网站首页！</span></a></li>
-                <li class="cases"><a href="__MODULE__/Goods/goodslist" title="网页制作">商品<span>都有哪些商品</span></a></li>
-                <li class="service"><a href="__MODULE__/syllabus/syllabus"  title="网站建设">课程表<span>都有什么课</span></a></li>
-                <li class="client"><a href="__MODULE__/Grade/grade"  title="解决方案">成绩<span>考了多少？</span></a></li>
-                <li class="about"><a href="__MODULE__/about/about"  title="关于学校">关于<span>项目如何</span></a></li>
-            </ul>
-        </nav>
-        <?php
-       if($_SESSION['username']!=null){
-       $self=U('user/self');
-       echo "欢迎您,"."<a href='$self'>".$_SESSION['username']."</a>";
-        echo "&nbsp&nbsp";
-        $logout=U('user/logout');
-        echo        "<a href='$logout'>注销</a> ";
-        }
-        else {
-        $login=U('user/login');
-        $register=U('user/register');
-        echo "<a href='$login'>登录</a>
-        <a href='$register'>注册</a>"
-        ;
-        }
-        ?>
-    </div>
-</header>
+<include file="public:header"/>
 <!-- 查找最顶级栏目  -->
 <section id="caseslist">
     <div class="cat_title">
@@ -53,14 +42,17 @@
             <h2><strong>LOST</strong>失物</h2>
             <p>失去了什么<br/>
                 lost and found... </p>
-            <a href="__MODULE__/Lost/add">添加</a>&nbsp&nbsp&nbsp
-            <a href="__MODULE__/Lost/self">我的物品</a>
+            &nbsp&nbsp&nbsp
+            <p class="leftmenu" style="float: right;">
+                <a href="__MODULE__/Lost/add">添加物品</a>
+                <a href="__MODULE__/Lost/self/user_id/{$userid}">我的物品</a>
+            </p>
         </div>
     </div>
     <div id="filter">
         <div class="wrapper">
             <table width="1000px" border="0" align="center">
-                <form action="__SELF__" method="post" >
+                <form action="__SELF__" method="get" >
                     <tr id="header">
                         <td width="640px" height="50px">
 
@@ -75,17 +67,16 @@
 
                                 时间排序<a href="#"><button type="submit" name="timeup" value="timeup" ><img src="__PUBLIC__/Home/css/images/up.jpg"  width="10" height="10"  /></button></a>&ensp;<a href="#"><button type="submit" name="timedown" value="timedown" ><img src="__PUBLIC__/Home/css/images/down.jpg"  width="10" height="10"  /></button></a>&ensp;&ensp;&ensp;&ensp;
 
-                               <!-- 价格排序<a href="#"><button type="submit" name="priceup" value="priceup"><img src="__PUBLIC__/Home/css/images/up.jpg"  width="10" height="10"  /></button></a>&ensp;<a href="#"><button type="submit" name="pricedown" value="pricedown"><img src="__PUBLIC__/Home/css/images/down.jpg"  width="10" height="10"  /></button></a>
-                            --></div>
+                            </div>
                 </form>
 
                 </td>
 
                 <td align="right" >
-                    <form action="__SELF__" method="post" >
+                    <form action="__SELF__" method="get" >
                         <div class="logo">
                             <a href="#"><button type="submit" class="ss" name="sosuo" ></button></a>
-                            <input name="sosuo" type="text" class="ssb" value="请输入关键词"/>
+                            <input name="sosuo" type="text" class="ssb" value="请输入物品名或用户名"/>
                         </div>
                     </form>
                 </td>
@@ -97,13 +88,18 @@
     </div>
     <ul class="cases wrapper">
 
-        <?php foreach($list as $key => $value){?>
+        <?php foreach($info as $key => $value){?>
 
         <input type="hidden" name='id' value="{:$_GET['id']}" />
 
 
 
-        <li class="item1"> <img src="__PUBLIC__/{$value.lost_img}" tppabs=""  width="240" height="152" alt="{$value.lost_name}" /> <strong></strong>
+        <li class="item1"> 
+        <?php if($value[lost_img]==null){
+             echo "<img src='__PUBLIC__/$value[lost_img1]' tppabs=''  width='240' height='152' alt='$value[lost_name]' />";
+             }else{
+             echo "<img src='__PUBLIC__/$value[lost_img]' tppabs=''  width='240' height='152' alt='$value[lost_name]' />";}?>
+         <strong></strong>
             {$value.lost_name}
             <p> <strong>{$value.lost_name} </strong> <em>QQ：{$value.lost_qq}<br/>
                 时间:{$value.lost_time}</em>{$value.lost_detail}<br/>
@@ -115,62 +111,14 @@
 
     <div class="dede_pages">
         <ul class="pagelist">
-            <span class="pageinfo"><strong>{$page}</strong></span>
-
+            <span class="pageinfo"><strong>{$pagelist}</strong></span>
         </ul>
     </div>
 
 </section>
 
 
-<footer>
-    <div id="footerlink">
-        <nav class="wrapper">
-            <a href="__MODULE__/Goods/goodslist" >二手交易</a>
-            <a href="__MODULE__/Lost/lostlist">失物招领</a>
-            <a href="__MODULE__/News/newslist">新闻</a>
-            <a href="__MODULE__/Activity/activitylist">活动</a>
-            <a href="__MODULE__/Syllabus/syllabus">课程表</a>
-            <a href="__MODULE__/Grade/grade">成绩</a>
-            <a href="#">校历</a>
-            <a href="#">地图</a>
-            <a id="gotop" href="javascript:void(0)">top</a>
-        </nav>
-    </div>
-    <div id="footerinfo">
-        <div class="wrapper1">
-            <h2>联系我们<strong>Contact</strong></h2>
-            <p>
-                电话：xxxxxxxx<br/>
-                传真：xxxxxxxxx<br/>
-                电子邮件：xxxxxxxxx<br/>
-                公司地址：xxxxxxxxxxx<br/>
-                备案编号：xxxxxxxx<br/>
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-            </p>
-            <img src="__PUBLIC__/Home/images/map.gif" id="homemap" width="258" height="190" alt="公司位置" />
-        </div>
-        <div class="links">
-            <h2>友情链接<strong>Links</strong></h2>
-            <p>
-            <ul>
-                <li>
-                    <a href="#" target='_blank'>微校</a>
-                </li>
-                <li>
-                    <a href="#" target='_blank'>微校</a>
-                </li>
-                <li>
-                    <a href="#" target='_blank'>微校</a>
-                </li>
-                <li>
-                    <a href="#" target='_blank'>微校</a>
-                </li>
-            </ul>
-            </p>
-        </div>
-    </div>
-</footer>
+<include file="public:footer"/>
 <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.1.8.2.min.js" ></script>
 <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.plugin.min.js" ></script>
 <!--[if IE 6]>

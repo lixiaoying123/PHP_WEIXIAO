@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css" type="text/css" media="all" />
+    <!--[if lt IE 9]><script type="text/javascript" src="__PUBLIC__/Home/js/html5.js" ></script><![endif]-->
+
+</head>
+<style type="text/css">
+    .input-text
+    {
+        border: 1px solid #C3CED9;
+        border-radius: 5px 5px 5px 5px;
+        font-size: 14px;
+        height: 31px;
+        line-height: 31px;
+        margin-right: 10px;
+        padding: 0;
+        width: 300px;
+    }
+</style>
+<body >
+<include file="public:header" />
+<!-- 查找最顶级栏目  -->
+<section id="show_cases" style="background-image:url(__PUBLIC__/Home/images/login.jpg);background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;">
+    <div class="cat_title">
+        <div class="wrapper">
+            <h2><strong>SYLLABUS</strong>课表</h2>
+            <p style="color:#333;">我的课表<br/>Our grade... </p>
+        </div>
+    </div>
+    <article>
+        <div class="wrapper">
+
+            <div style="text-align: center;color:#232323;">
+                {$img|getVerify}
+                <form enctype="multipart/form-data" action=__SELF__ method="post" style="height: 300px;margin-top: 50px;">
+                    
+                        <div class="mui-input-row" style="opacity:0.5;color: white;width: 80%; margin:auto 10% auto">
+                            <lable style="font-size: 20px;">学号：</lable><input name="xh"  type="text" class="input-text"/>
+                        </div>  
+                        <br/>                     
+                        <div class="mui-input-row" style="opacity:0.5;color: white;width: 80%; margin: auto 10% auto">
+                            <lable style="font-size: 20px;">密码：</lable><input name="pw"  type="password" class="input-text"/>
+                           </div>
+                           <br/>
+                           <div class="mui-input-row" style="opacity:0.5;color: white;width: 80%; margin: auto 10% auto">
+                            <span><lable style="font-size: 20px;">验证码：</lable><input name="code" style="width:250px;" type="text" class="input-text"/>
+                            <img src="__PUBLIC__/verifyCode.jpg"/></span>
+                          </div>
+                          <br/>
+                            <input type="submit" name="" value="查询" class="input-text" style="width:100px;font-size: 20px;color: grey;" />               
+                </form>
+                </br></br>
+            </div>
+        </div>
+    </article>   
+</section>
+<include file="public:footer" />
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.1.8.2.min.js" ></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery.plugin.min.js" ></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="__PUBLIC__/Home/js/killie6.js" ></script>
+<![endif]-->
+
+<script type="text/javascript">
+    //<![CDATA[
+    //Nav Start
+    $("header>div>nav>ul>li>a").hover(function(){
+        $(this).parent().stop(false,true).animate({"background-position-x":"6px",opacity:"0.7"},{duration:"normal", easing: "easeOutElastic"});
+    },function(){
+        $(this).parent().stop(false,true).animate({"background-position-x":"10px",opacity:"1"},{duration:"normal", easing: "easeOutElastic"});
+    });
+    //<!----新闻---->
+    <!---- 新闻首页 ----->
+    //Nav End
+    $("#gotop").click(function(){$('body,html').animate({scrollTop:0},500);})
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3fe5b2b119b5fc4931e9c73e7071b0c6' type='text/javascript'%3E%3C/script%3E"));
+    var bds_config = {"bdTop":203};
+    $("#bdshell_js").attr("src","http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours());
+    //]]>
+</script></body>
+</html>

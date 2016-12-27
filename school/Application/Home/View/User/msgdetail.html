@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=1024" />
-    <title>{$value.news_title}</title>
+    <title>企业网站已经悄悄的转变成了一种网络营销应用_我的网站</title>
     <meta name="keywords" content="企业网站,已经,悄悄,的,转变,成了,一种,当," />
     <meta name="description" content="当是你最后一次使用的电话簿找到的产品或服务？如果你有一台电脑，平板电脑或智能手机的技术和访问，甚至有基本的了解，这可能是很难记住，当你拖着那么大，笨重的大部头，并翻阅它，" />
     <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css" type="text/css" media="all" />
@@ -15,45 +15,24 @@
 <section id="shownews">
     <div class="cat_title">
         <div class="wrapper">
-            <h2><strong>NEWS</strong>新闻</h2>
-            <p>最近正在折腾...<br/>
-                Recently is to do ...</p>
-                <p>浏览量：<br/>
-                <?php echo $info[0][news_views];?>次</p>
+            <h2><strong>message</strong>消息</h2>
+            <p>最新消息...<br/>message ...</p>
         </div>
     </div>
     <div class="category">
         <div class="wrapper">
-            <h1><?php echo $info[0][news_title];?></h1>
-            <span>时间：<?php echo date('Y-m-d',$info[0][news_time]);?></span> </div>
+            <h1>题目：<?php echo $info[0][msg_title];?></h1>
+            <span>时间：<?php echo date('Y-m-d H:i:s',$info[0][msg_time]);?></span> </div>
     </div>
 
     <article>
-        <div class="wrapper" id="detailed"> <span style="color: rgb(102, 102, 102); font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Arial, Verdana, sans-serif; line-height: 25px; font-size:15px; text-align: justify;"><?php echo $info[0][news_content];?></span><br style="color: rgb(102, 102, 102); font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Arial, Verdana, sans-serif; line-height: 21px; text-align: justify;" />
+        <div class="wrapper" id="detailed"> <br style="color: rgb(102, 102, 102); font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Arial, Verdana, sans-serif; line-height: 25px; font-size:15px; text-align: justify;">
+            主题：</br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $info[0][msg_content];?></span><br style="color: rgb(102, 102, 102); font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Arial, Verdana, sans-serif; line-height: 21px; text-align: justify;" />
         </div>
-        <div class="wrapper related">
-            <h3> 你可能还对下面的新闻感兴趣
-                <div class="share">
-                    <!-- Baidu Button BEGIN -->
-                    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"> <a class="bds_qzone"></a> <a class="bds_tsina"></a> <a class="bds_tqq"></a> <a class="bds_renren"></a> <a class="bds_t163"></a> <span class="bds_more"><a href="__MODULE__/news/newslist">更多</a></span> <a class="shareCount"></a> </div>
-                    <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>
-                    <script type="text/javascript" id="bdshell_js"></script>
-                    <script type="text/javascript">
-                        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
-                    </script>
-                    <!-- Baidu Button END -->
-                </div>
-            </h3>
-            <ul>
-                <?php foreach($list as $key => $value){
-               ?>
 
-                <li><a href="__MODULE__/news/newsdetail/news_id/{$value.news_id}" tppabs="">{$value.news_title}</a></li>
-                <?php }?>
-            </ul>
-        </div>
+
         <div id="case_footer">
-            <div class="wrapper showother"> <a class="backlist" href="__MODULE__/news/newslist" tppabs="">返回案例列表</a> </div>
+            <div class="wrapper showother"> <a class="backlist" href="__MODULE__/user/message" tppabs="">返回案例列表</a> </div>
         </div>
     </article>
 </section>

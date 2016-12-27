@@ -4,25 +4,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=1024" />
-    <title></title>
+    <title>失物招领</title>
     <meta name="keywords" content="" />
-    <meta name="description" content="" />
     <link rel="stylesheet" href="/school1/Public/Home/css/style.css" type="text/css" media="all" />
     <!--[if lt IE 9]><script type="text/javascript" src="/school1/Public/Home/js/html5.js" ></script><![endif]-->
 </head>
-<style type="text/css">
-    .input-text
-    {
-        border: 1px solid #C3CED9;
-        border-radius: 5px 5px 5px 5px;
-        font-size: 14px;
-        height: 31px;
-        line-height: 31px;
-        margin-right: 10px;
-        padding: 0;
-        width: 300px;
-    }
-</style>
 <body >
 
 <header style="background-color: black;">
@@ -66,76 +52,60 @@
 
 
 <!-- 查找最顶级栏目  -->
-
-<section id="show_cases" style="background-image:url(/school1/Public/Home/images/login.jpg);background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;">
+<section id="show_cases">
     <div class="cat_title">
         <div class="wrapper">
-            <h2><strong>Goods</strong>添加商品</h2>
+            <h2><strong>LOST</strong>失物</h2>
+            <p>发布者<br/>
+                <a href="/school1/index.php/Home/User/myself/user_id/<?php echo ($info[0][user_id]); ?>"><?php echo ($user_name); ?></a> </p>
+            <p>发布时间:<br/><?php echo ($info[0][lost_time]); ?></p>
+            <p>浏览量:<br/><?php echo ($info[0][lost_views]); ?>次</p>
+            &nbsp&nbsp&nbsp&nbsp
+            <p>
+                <?php
+ if($user_name==session('username')){ $lost_id = $info[0][lost_id]; $id = U("home/Lost/update/lost_id/$lost_id"); $id1 = U("home/Lost/delete/lost_id/$lost_id"); echo "<a style='text-decoration:none ; font-size:15px;' href='$id'>修改物品</a></br></br>
+                <a style='text-decoration:none ; font-size:15px;' href='$id1'>删除物品</a>";}else{echo "";}?>
+            </p>
         </div>
     </div>
     <article>
         <div class="wrapper">
-            
-            <div style="text-align: left;font-size: 20px; color:#999;">
-            <form action="/school1/index.php/Home/Goods/add" method="post" enctype="multipart/form-data">
-              <table>
-                <ul >
-
-                    <li>
-                        商品名称：<input name="goods_name"  type="text" id="goodsname" value="" class="input-text"/><span></span>
-                    </li>
-                    </br></br>
-                    <li>
-                        商品价格：<input name="goods_price" type="text" class="input-text"/>
-                    </li>
-                    </br></br>
-                    <li>
-
-                        商品种类：<input name="goods_type"  type="radio" value="study"  />学习
-                        <input name="goods_type"  type="radio" value="dianzi" />电子
-                        <input name="goods_type"  type="radio" value="life" />生活
-                        <input name="goods_type"  type="radio" value="other" />其他
-
-                    </li>
-                    </br></br>
-                    <li>
-                        QQ：<input name="goods_qq"  type="text" id="goodsqq" value="" class="input-text"/><span></span>
-                    </li>
-                    </br></br>
-                    <li>
-                        TEL：<input name="goods_tel"  type="text" id="goodstel" value="" class="input-text"/><span></span>
-                    </li>
-                    </br></br>
-                    <li>
-
-                        商品图片：<input name="goods_img"  type="file" /></br></br>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        &nbsp&nbsp&nbsp&nbsp<input name="goods_img1"  type="file" />
+            <div id="overview">
+                <div class="overview_bg"></div>
+                <div id="case_info">
 
 
-                    </li>
+                    <input type="hidden" name='id' value="<?php echo ($_GET['id']); ?>" />
+                    <h1>
+                        <?php if($info[0][lost_img]==null): ?><img src="/school1/Public/<?php echo $info[0][lost_img1] ?>" tppabs="" width="180" height="120" alt="商品" />
+                            <?php else: ?><img src="/school1/Public/<?php echo $info[0][lost_img] ?>" tppabs="" width="180" height="120" alt="商品" /><?php endif; ?>
+                    </h1>
+                    <ul>
+                        <li>名字：<?php echo $info[0][lost_name];?></li>
+                        <li>QQ：<?php echo $info[0][lost_qq];?></li>
+                        <li>Tel：<?php echo $info[0][lost_tel];?></li>
+                    </ul>
+                    <a class="btn_blue" target="_blank" rel="external nofollow" hight="10px">商品简介</a>
+                    <div class="brief"><?php echo $info[0][lost_detail];?></div>
 
-                    </br></br>
-                    <li>
-                        商品详情：<textarea rows="3" cols="30" name="goods_detail" ></textarea>
-                    </li>
-
-                    <?php
- $goods_time = date('Y-m-d,H:i:s',time());?>
-                    <input type="hidden" name='goods_time' value=<?php echo ($goods_time); ?> />
-                    <input type="hidden" name='user_id' value='<?php echo ($vo); ?>' />
-            </ul> 
-            </br></br></br></br>
-            <button type="submit" class="us_Submit_reg" name="sub" >提交</button>
+                </div>
+            </div>
+            <div id="detailed">
+                <?php if($info[0][lost_img]!=null and $info[0][lost_img1]!=null): ?><img alt="" src="/school1/Public/<?php echo $info[0][lost_img] ?>" tppabs="" style="height: 499px; width: 700px;"/>
+                    <img alt="" src="/school1/Public/<?php echo $info[0][lost_img1] ?>" tppabs="" style="height: 499px; width: 700px;"/>
+                    <?php else: if($info[0][lost_img]==null): ?><img alt="" src="/school1/Public/<?php echo $info[0][lost_img1] ?>" tppabs="" style="height: 499px; width: 700px;"/><?php else: ?><img alt="" src="/school1/Public/<?php echo $info[0][lost_img] ?>" tppabs="" style="height: 499px; width: 700px;" /><?php endif; endif; ?>
+            </div>
+            <?php
+ $user = D('user'); $user_id = $info[0][user_id]; $user_name = $user->where("user_id=$user_id")->getfield('username'); $id = $info[0][lost_id]; if($user_name != session('username')){ if($info[0][status]==0){ echo "<a href='/school1/index.php/Home/lost/jubao/lost_id/$id'><button type='button'>举报</button></a>";}else{ echo "<p style='color: #8B0000'>已举报</p>";} } ?>
         </div>
-        </div>
-        </table>
-         </form>
     </article>
-    
+    <div id="case_footer">
+        <div class="wrapper showother">
+            <a class="backlist" href="/school1/index.php/Home/lost/lostlist" tppabs="http://mc18.eatdou.com/case/gov/">返回案例列表</a>
+
+        </div>
     </div>
 </section>
-</form>
 <footer>
     <div id="footerlink">
         <nav class="wrapper">
@@ -169,8 +139,8 @@
     },function(){
         $(this).parent().stop(false,true).animate({"background-position-x":"10px",opacity:"1"},{duration:"normal", easing: "easeOutElastic"});
     });
-    //<!--- 案例 ---->
-    <!--案例详细-->
+    // <!--- 案例 ---->
+    //<!--案例详细-->
     //Cases Start
     if($.browser.msie&&$.browser.version==6.0&&!$.support.style){
         $("#overview").height($("#detailed").height());
@@ -203,51 +173,5 @@
     var bds_config = {"bdTop":203};
     $("#bdshell_js").attr("src","http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours());
     //]]>
-
-    $(document).ready(function() {
-        $("#goodsname").blur(function () {
-            var goodsname = $("#goodsname").val();
-            var span = $("#goodsname").parent().children("span");
-            if(goodsname == ""){
-                span.css('color', 'red');
-                span.text('请填写商品名称');
-            }else{
-                span.text('');
-            }
-        });
-        $("#goodsqq").blur(function() {
-            var goodsqq = $("#goodsqq").val();
-            var span = $("#goodsqq").parent().children("span");
-            if(goodsqq == ""){
-                span.css('color', 'red');
-                span.text('请填写联系方式');
-            }else {
-                var reg = /^\d{5,10}$/;
-                if(!reg.test(goodsqq)){
-                    span.css('color', 'red');
-                    span.text('QQ格式不对');
-                }else{
-                    span.text('');
-                }
-            }
-         });
-            $("#goodstel").blur(function () {
-                var goodstel = $("#goodstel").val();
-                var span = $("#goodstel").parent().children("span");
-                if (goodstel == "") {
-                    span.css('color', 'red');
-                    span.text('请填写联系方式');
-                } else {
-                    var pattern = /^1[34578]\d{9}$/;
-                    if(!pattern.test(goodstel)){
-                        span.css('color', 'red');
-                        span.text('手机号格式不对');
-                    }else{
-                        span.text('');
-                    }
-                }
-            });
-
-    })
 </script></body>
 </html>

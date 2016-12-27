@@ -1,16 +1,19 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />   
-<meta name="viewport" content="width=1024" />
-<title>个人中心</title>
-<meta name="keywords" content="这里填写关键词" />
-<meta name="description" content="这里填写描述" />      
-<link rel="stylesheet" href="/school1/Public/Home/css/style.css" type="text/css" media="all" />
-<!--[if lt IE 9]><script type="text/javascript" src="../js/html5.js"></script><![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>个人中心</title>
+    <meta name="keywords" content="这里填写关键词" />
+    <meta name="description" content="这里填写描述" />
+    <link rel="stylesheet" href="/school1/Public/Home/css/style.css" type="text/css" media="all" />
+    <!--[if lt IE 9]><script type="text/javascript" src="../js/html5.js"></script><![endif]-->
 </head>
 
 <body >
+
+
+
 
 <header style="background-color: black;">
     <div id="navbg"></div>
@@ -53,39 +56,37 @@
 
 
 <!-- 查找最顶级栏目  -->
-<section id="single" style="background-image:url(/school1/Public/Home/images/login.jpg);background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;">
-	<!-- 查找子栏目  -->
-	<div class="cat_title">
-		<div class="wrapper">
-			<h2><strong>SELF</strong>个人中心</h2>
-			<p>我们是谁？<br/>Who are we?</p>
-		</div>
-	</div>
-	<div class="category">
-		<div class="wrapper">
-			<h2 style="font-size: 30px;">个人信息</h2>
-           
-            <ul class="catbtn"> 
-            
-			</ul>
-		</div>
-	</div>
-	<article class="serv_detailed">
-		<div id="detailed" > <ul style="font-size: 20px;">   
-      	<li>用户名：<?php echo $_SESSION['username'];?></li>
-      	</br>
-      	<li>学院： <?php echo ($vo[0]['userclass']); ?></li></br>
-      	<li>邮箱：<?php echo ($vo[0]['useremail']); ?></li></br>
-      	<?php if($vo[0][count]==0){ echo "<li>状态：正常</li></br>"; }else{ echo "<li>状态：禁言中...&nbsp&nbsp还有".$lstimes."小时解禁</li></br>";}?>
-      	<li ><a href="/school1/index.php/Home/Goods/self/user_id/<?php echo ($vo[0]['user_id']); ?>" style='text-decoration:underline;font-size: 25px;font-family: Helvetica;'>我的商品</a>&nbsp&nbsp
-			<a href="/school1/index.php/Home/Lost/self/user_id/<?php echo ($vo[0]['user_id']); ?>" style='text-decoration:underline;font-size: 25px;font-family: Helvetica;'>我的物品</a>&nbsp&nbsp
-		</li>
-      </ul>
+<section id="single">
+    <!-- 查找子栏目  -->
+    <div class="cat_title">
+        <div class="wrapper">
+            <h2><strong>SELF</strong>个人中心</h2>
+            <p>我们是谁？<br/>Who are we?</p>
+        </div>
+    </div>
+    <div class="category">
+        <div class="wrapper">
+            <h2 style="font-size: 30px;">个人信息</h2>
+
+            <ul class="catbtn">
+
+            </ul>
+        </div>
+    </div>
+    <article class="serv_detailed">
+        <div id="detailed"> <ul style="font-size: 20px;">
+            <li>用户名：<?php echo ($info[0][username]); ?></li>
+            </br>
+            <li>学院：<?php echo ($info[0][userclass]); ?></li></br>
+            <li><a href="/school1/index.php/Home/Goods/self/user_id/<?php echo ($info[0][user_id]); ?>" style="font-size: 30px;">商品</a>&nbsp&nbsp
+                <a href="/school1/index.php/Home/Lost/self/user_id/<?php echo ($info[0][user_id]); ?>" style="font-size: 30px;">物品</a>&nbsp&nbsp
+            </li>
+        </ul>
 
 
         </div>
-		
-	</article>
+        <div id="case_footer"></div>
+    </article>
 </section>
 <footer>
     <div id="footerlink">

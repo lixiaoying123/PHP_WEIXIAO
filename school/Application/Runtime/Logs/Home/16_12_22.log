@@ -1,0 +1,816 @@
+[ 2016-12-22T00:40:51+08:00 ] 101.226.33.200 /school1/index.php/Home/Goods/goodsdetail?id%25253D176
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T01:28:40+08:00 ] 101.226.89.120 /school1/index.php/Home/Goods/goodsdetail?id%3D171
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T02:45:29+08:00 ] 180.153.214.197 /school1/index.php/Home/Goods/goodsdetail?id%3D178
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T02:45:40+08:00 ] 123.207.137.247 /school1/index.php/Home/Goods/goodsdetail?id%3D178
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T03:49:04+08:00 ] 101.226.65.104 /school1/index.php/Home/Goods/goodsdetail?id%3D179
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T03:49:25+08:00 ] 103.214.175.67 /school1/index.php/Home/Goods/goodsdetail?id%3D179
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T05:59:22+08:00 ] 101.226.89.117 /school1/index.php/Home/Goods/goodsdetail?id%253D178
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T07:26:21+08:00 ] 101.226.66.177 /school1/index.php/Home/Goods/goodsdetail?id%253D179
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T09:04:47+08:00 ] 101.226.66.173 /school1/index.php/Home/Goods/goodsdetail?id%25253D178
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T09:37:35+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/login
+ERR: 1048:Le champ 'sylla_stuid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `think_syllabus` (`sylla_stuid`,`sylla_table`) VALUES (NULL,'
+<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
+<HTML lang=\"gb2312\">
+	<HEAD>
+		<title>现代教学管理信息系统</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=EmulateIE7\">
+		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\">
+		<meta http-equiv=\"Content-Language\" content=\"gb2312\">
+		<meta content=\"all\" name=\"robots\">
+		<meta content=\"作者信息\" name=\"author\">
+		<meta content=\"版权信息\" name=\"Copyright\">
+		<meta content=\"站点介绍\" name=\"description\">
+		<meta content=\"站点关键词\" name=\"keywords\">
+		<LINK href=\"style/base/favicon.ico\" type=\"image/x-icon\" rel=\"icon\">
+			<LINK media=\"all\" href=\"style/base/jw.css\" type=\"text/css\" rel=\"stylesheet\">
+				<LINK media=\"all\" href=\"style/standard/jw.css\" type=\"text/css\" rel=\"stylesheet\">
+					<!--<script defer>   
+		function  PutSettings()   
+			{     
+			factory.printing.header=\"\";   
+			factory.printing.footer=\"\";   
+		    factory.printing.leftMargin=\"5\";   
+			factory.printing.topMargin=\"5\";   
+			factory.printing.rightMargin=\"5\";   
+			factory.printing.bottomMargin=\"5\";
+		 }
+
+					</script>-->
+					<style> @media Print { .bgnoprint { }
+	.noprint { DISPLAY: none }}
+	</style>
+	</HEAD>
+	<BODY>
+		<!--<OBJECT id=\"factory\" style=\"DISPLAY: none\" codeBase=\"ScriptX.cab#Version=5,60,0,360\" classid=\"clsid:1663ed61-23eb-11d2-b92f-008048fdd814\"
+			VIEWASTEXT>
+		</OBJECT>-->
+		<form name=\"xskb_form\" method=\"post\" action=\"xskbcx.aspx?xh=2014011736&amp;xm=%B6%C5%BD%A8%B2%A9&amp;gnmkdm=N121603\" id=\"xskb_form\">
+<input type=\"hidden\" name=\"__EVENTTARGET\" value=\"\" />
+<input type=\"hidden\" name=\"__EVENTARGUMENT\" value=\"\" />
+<input type=\"hidden\" name=\"__VIEWSTATE\" value=\"dDwyMjIxNjAyODg7dDw7bDxpPDE+Oz47bDx0PDtsPGk8MT47aTwyPjtpPDQ+O2k8Nz47aTw5PjtpPDExPjtpPDEzPjtpPDE1PjtpPDI0PjtpPDI2PjtpPDI4PjtpPDMwPjtpPDMyPjtpPDM0Pjs+O2w8dDxwPHA8bDxUZXh0Oz47bDxcZTs+Pjs+Ozs+O3Q8dDxwPHA8bDxEYXRhVGV4dEZpZWxkO0RhdGFWYWx1ZUZpZWxkOz47bDx4bjt4bjs+Pjs+O3Q8aTwzPjtAPDIwMTYtMjAxNzsyMDE1LTIwMTY7MjAxNC0yMDE1Oz47QDwyMDE2LTIwMTc7MjAxNS0yMDE2OzIwMTQtMjAxNTs+PjtsPGk8MD47Pj47Oz47dDx0PDs7bDxpPDA+Oz4+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85a2m5Y+377yaMjAxNDAxMTczNjs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85aeT5ZCN77ya5p2c5bu65Y2aOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlrabpmaLvvJrova/ku7blrabpmaI7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOS4k+S4mu+8mui9r+S7tuW3peeoizs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w86KGM5pS/54+t77yaMTTova/ku7blt6XnqIs154+tOz4+Oz47Oz47dDw7bDxpPDE+Oz47bDx0PEAwPDs7Ozs7Ozs7Ozs+Ozs+Oz4+O3Q8cDxsPFZpc2libGU7PjtsPG88Zj47Pj47bDxpPDE+Oz47bDx0PEAwPDs7Ozs7Ozs7Ozs+Ozs+Oz4+O3Q8QDA8cDxwPGw8UGFnZUNvdW50O18hSXRlbUNvdW50O18hRGF0YVNvdXJjZUl0ZW1Db3VudDtEYXRhS2V5czs+O2w8aTwxPjtpPDI+O2k8Mj47bDw+Oz4+Oz47Ozs7Ozs7Ozs7PjtsPGk8MD47PjtsPHQ8O2w8aTwxPjtpPDI+Oz47bDx0PDtsPGk8MD47aTwxPjtpPDI+O2k8Mz47aTw0PjtpPDU+O2k8Nj47aTw3Pjs+O2w8dDxwPHA8bDxUZXh0Oz47bDw5MjYyMTI7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPDkyNjIxMjs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w86LCDMDQzMjs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w8KDIwMTYtMjAxNy0xKS0yNjEwMDAxNDcwLTkyNTAwOS0xOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzova/ku7bov4fnqIs7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOWRqDPnrKw26IqC6L+e57utM+iKgnvnrKw3LTflkah9L+i9r+S7tkMtMzAyL+Wtn+WPjOiLsTs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85ZGoNeesrDboioLov57nu60z6IqCe+esrDctN+WRqH0v6L2v5Lu2Qy0yMDQv5a2f5Y+M6IuxOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDE2LTEwLTE5LTA4LTQ0Oz4+Oz47Oz47Pj47dDw7bDxpPDA+O2k8MT47aTwyPjtpPDM+O2k8ND47aTw1PjtpPDY+O2k8Nz47PjtsPHQ8cDxwPGw8VGV4dDs+O2w8MjAxNjE5Oz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDIxMjM7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOaNojAwNDY7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPCgyMDE2LTIwMTctMSktODEwNTAxMDExMS0yMDE2MTktMzs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85b2i5Yq/5LiO5pS/562WOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlkag156ysOeiKgui/nue7rTLoioJ756ysMTMtMTTlkah9L+WFrOWFseaVmeWtpualvEHluqcxMDkv5p2O5LqR6ZyeOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlkag156ysOeiKgui/nue7rTLoioJ756ysMTMtMTTlkah9L+WFrOWFseaVmeWtpualvEHluqcxMDkv5YiY5Yek5YabOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDE2LTEwLTI0LTE0LTI4Oz4+Oz47Oz47Pj47Pj47Pj47dDxAMDxwPHA8bDxQYWdlQ291bnQ7XyFJdGVtQ291bnQ7XyFEYXRhU291cmNlSXRlbUNvdW50O0RhdGFLZXlzOz47bDxpPDE+O2k8MD47aTwwPjtsPD47Pj47Pjs7Ozs7Ozs7Ozs+Ozs+O3Q8QDA8cDxwPGw8UGFnZUNvdW50O18hSXRlbUNvdW50O18hRGF0YVNvdXJjZUl0ZW1Db3VudDtEYXRhS2V5czs+O2w8aTwxPjtpPDA+O2k8MD47bDw+Oz4+Oz47Ozs7Ozs7Ozs7Pjs7Pjt0PEAwPHA8cDxsPFBhZ2VDb3VudDtfIUl0ZW1Db3VudDtfIURhdGFTb3VyY2VJdGVtQ291bnQ7RGF0YUtleXM7PjtsPGk8MT47aTwwPjtpPDA+O2w8Pjs+Pjs+Ozs7Ozs7Ozs7Oz47Oz47Pj47Pj47PvEqwp+fJQ3N40nndyWQHzPF0mGs\" />
+
+<script language=\"javascript\">
+<!--
+	function __doPostBack(eventTarget, eventArgument) {
+		var theform;
+		if (window.navigator.appName.toLowerCase().indexOf(\"netscape\") > -1) {
+			theform = document.forms[\"xskb_form\"];
+		}
+		else {
+			theform = document.xskb_form;
+		}
+		theform.__EVENTTARGET.value = eventTarget.split(\"$\").join(\":\");
+		theform.__EVENTARGUMENT.value = eventArgument;
+		theform.submit();
+	}
+// -->
+</script>
+
+			<!-- 多功能操作区 -->
+			<!-- 内容显示区开始 -->
+			<div class=\"main_box \">
+				<div class=\"mid_box\">
+					<div class=\"title noprint\">
+						<p>
+							<!-- 查询得到的数据量显示区域 --></p>
+					</div>
+					<!-- From内容 --><span class=\"formbox\">
+						<TABLE class=\"formlist noprint\" id=\"Table2\" width=\"100%\">
+							<TR>
+								<TD align=\"center\"><select name=\"xnd\" onchange=\"__doPostBack(\'xnd\',\'\')\" language=\"javascript\" id=\"xnd\">
+	<option selected=\"selected\" value=\"2016-2017\">2016-2017</option>
+	<option value=\"2015-2016\">2015-2016</option>
+	<option value=\"2014-2015\">2014-2015</option>
+
+</select><span id=\"Label2\"><font size=\"4\">学年第</font></span><select name=\"xqd\" onchange=\"__doPostBack(\'xqd\',\'\')\" language=\"javascript\" id=\"xqd\">
+	<option selected=\"selected\" value=\"1\">1</option>
+	<option value=\"2\">2</option>
+	<option value=\"3\">3</option>
+
+</select><span id=\"Label1\"><font size=\"4\">学期学生个人课程表</font></span></TD>
+							</TR>
+							<TR class=\"trbg1\">
+								<TD><span id=\"Label5\">学号：2014011736</span>|
+									<span id=\"Label6\">姓名：杜建博</span>|
+									<span id=\"Label7\">学院：软件学院</span>|
+									<span id=\"Label8\">专业：软件工程</span>|
+									<span id=\"Label9\">行政班：14软件工程5班</span>
+									&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"labTS\"><font color=\"Red\"></font></span><span id=\"labTip\"><font color=\"Red\"></font></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name=\"btnPrint\" id=\"btnPrint\" type=\"button\" class=\"button\" style=\"DISPLAY:none\" onclick=\"window.print();\" value=\"打印课表\" />
+								</TD>
+							</TR>
+						</TABLE>
+						<br>
+						<table id=\"Table1\" class=\"blacktab\" bordercolor=\"Black\" border=\"0\" width=\"100%\">
+	<tr>
+		<td colspan=\"2\" rowspan=\"1\" width=\"2%\">时间</td><td align=\"Center\" width=\"14%\">星期一</td><td align=\"Center\" width=\"14%\">星期二</td><td align=\"Center\" width=\"14%\">星期三</td><td align=\"Center\" width=\"14%\">星期四</td><td align=\"Center\" width=\"14%\">星期五</td><td class=\"noprint\" align=\"Center\" width=\"14%\">星期六</td><td class=\"noprint\" align=\"Center\" width=\"14%\">星期日</td>
+	</tr><tr>
+		<td colspan=\"2\">早晨</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td rowspan=\"5\" width=\"1%\">上午</td><td width=\"1%\">第1节</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">算法设计与分析<br>选修<br>周一第1,2节{第1-18周}<br>贺毅朝<br>公共教学楼A座306</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">PHP面向对象与框架开发<br>选修<br>周二第1,2节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">PHP语言基础<br>选修<br>周三第1,2节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">LAMP体系结构<br>选修<br>周四第1,2节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" width=\"7%\">&nbsp;</td><td class=\"noprint\" align=\"Center\" width=\"7%\">&nbsp;</td><td class=\"noprint\" align=\"Center\" width=\"7%\">&nbsp;</td>
+	</tr><tr>
+		<td>第2节</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第3节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\" rowspan=\"3\">PHP面向对象与框架开发<br>选修<br>周二第3,4,5节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">PHP语言基础<br>选修<br>周三第3,4,5节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">LAMP体系结构<br>选修<br>周四第3,4,5节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"2\">算法设计与分析<br>选修<br>周五第3,4节{第1-18周}<br>贺毅朝<br>公共教学楼A座306</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第4节</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第5节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td rowspan=\"5\">下午</td><td>第6节</td><td align=\"Center\" rowspan=\"3\">PHP开发实训一<br>选修<br>周一第6,7,8节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">PHP开发实训一<br>选修<br>周二第6,7,8节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">软件过程<br>必修<br>周三第6,7,8节{第1-6周}<br>孟双英<br>软件C-302<br><br><font color=\'red\'>(调0432)</font><br><br>软件过程<br>必修<br>周三第6,7,8节{第8-18周}<br>孟双英<br>软件C-302<br><br><font color=\'red\'>(调0432)</font></td><td align=\"Center\" rowspan=\"2\">PHP开发实训一<br>选修<br>周四第6,7节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">软件过程<br>必修<br>周五第6,7,8节{第7-7周}<br>孟双英<br>软件C-204</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第7节</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第8节</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第9节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\" rowspan=\"2\">PHP开发实训一<br>选修<br>周二第9,10节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\" rowspan=\"2\">形势与政策<br>素质<br>周五第9,10节{第13-14周}<br>李云霞/刘凤军<br>公共教学楼A座109<br><br><font color=\'red\'>(换0046)</font></td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第10节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td rowspan=\"3\" width=\"1%\">晚上</td><td>第11节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第12节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第13节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr>
+</table>
+						<br>
+						
+						
+						<div class=\"noprint\" align=\"left\">调、停（补）课信息：</div>
+						<table class=\"datelist noprint\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"DBGrid\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>编号</td><td>课程名称</td><td>原上课时间地点教师</td><td>现上课时间地点教师</td><td>申请时间</td>
+	</tr><tr>
+		<td>调0432</td><td>软件过程</td><td>周3第6节连续3节{第7-7周}/软件C-302/孟双英</td><td>周5第6节连续3节{第7-7周}/软件C-204/孟双英</td><td>2016-10-19-08-44</td>
+	</tr><tr class=\"alt\">
+		<td>换0046</td><td>形势与政策</td><td>周5第9节连续2节{第13-14周}/公共教学楼A座109/李云霞</td><td>周5第9节连续2节{第13-14周}/公共教学楼A座109/刘凤军</td><td>2016-10-24-14-28</td>
+	</tr>
+</table>
+						<TABLE class=\"noprint\" id=\"Table3\" width=\"100%\">
+							<TR>
+								<TD align=\"left\">实践课(或无上课时间)信息：</TD>
+							</TR>
+							<TR>
+								<TD valign=\"top\"><table class=\"datelist\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"DataGrid1\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>课程名称</td><td>教师</td><td>学分</td><td>起止周</td><td>上课时间</td><td>上课地点</td>
+	</tr>
+</table></TD>
+							</TR>
+							<TR>
+								<TD align=\"left\">实习课信息：</TD>
+							</TR>
+							<TR>
+								<TD><table class=\"datelist\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"DBGridYxkc\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>学年</td><td>学期</td><td>课程名称</td><td>实习时间</td><td>模块代号</td><td>先修模块</td><td>实习编号</td>
+	</tr>
+</table></TD>
+							</TR>
+							<TR>
+								<TD align=\"left\">未安排上课时间的课程：</TD>
+							</TR>
+							<TR>
+								<TD><table class=\"datelist\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"Datagrid2\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>学年</td><td>学期</td><td>课程名称</td><td>教师姓名</td><td>学分</td>
+	</tr>
+</table></TD>
+							</TR>
+						</TABLE>
+					</span>
+					<div class=\"footbox noprint\"><em class=\"footbox_con\"><span class=\"pagination\"></span>
+							<span class=\"footbutton\"></span>
+							<!-- 底部按钮位置 --></em></div>
+				</div>
+			</div>
+		</form>
+	</BODY>
+</HTML>
+')
+
+[ 2016-12-22T09:37:36+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T09:37:36+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T09:39:07+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T09:39:07+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T10:27:07+08:00 ] 180.153.214.200 /school1/index.php/Home/Goods/goodsdetail?id%25253D179
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T11:31:00+08:00 ] 180.153.212.13 /school1/index.php/Home/Lost/lostdetail?id%3D16
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-22T12:39:31+08:00 ] 140.207.124.105 /school1/index.php/Home/syllabus/xskbcx.aspx?xh%25252525252525253D2014011736%252525252525252526xm%25252525252525253D%252525252525252525B6%252525252525252525C5%252525252525252525BD%252525252525252525A8%252525252525252525B2%252525252525252525A9%252525252525252526gnmkdm%25252525252525253DN121603
+ERR: 非法操作:xskbcx.aspx
+
+[ 2016-12-22T13:49:07+08:00 ] 180.153.201.79 /school1/index.php/Home/Goods/goodsdetail?id%2525253D178
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T14:13:51+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/login
+ERR: 1048:Le champ 'sylla_stuid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `think_syllabus` (`sylla_stuid`,`sylla_table`) VALUES (NULL,'
+<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
+<HTML lang=\"gb2312\">
+	<HEAD>
+		<title>现代教学管理信息系统</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=EmulateIE7\">
+		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\">
+		<meta http-equiv=\"Content-Language\" content=\"gb2312\">
+		<meta content=\"all\" name=\"robots\">
+		<meta content=\"作者信息\" name=\"author\">
+		<meta content=\"版权信息\" name=\"Copyright\">
+		<meta content=\"站点介绍\" name=\"description\">
+		<meta content=\"站点关键词\" name=\"keywords\">
+		<LINK href=\"style/base/favicon.ico\" type=\"image/x-icon\" rel=\"icon\">
+			<LINK media=\"all\" href=\"style/base/jw.css\" type=\"text/css\" rel=\"stylesheet\">
+				<LINK media=\"all\" href=\"style/standard/jw.css\" type=\"text/css\" rel=\"stylesheet\">
+					<!--<script defer>   
+		function  PutSettings()   
+			{     
+			factory.printing.header=\"\";   
+			factory.printing.footer=\"\";   
+		    factory.printing.leftMargin=\"5\";   
+			factory.printing.topMargin=\"5\";   
+			factory.printing.rightMargin=\"5\";   
+			factory.printing.bottomMargin=\"5\";
+		 }
+
+					</script>-->
+					<style> @media Print { .bgnoprint { }
+	.noprint { DISPLAY: none }}
+	</style>
+	</HEAD>
+	<BODY>
+		<!--<OBJECT id=\"factory\" style=\"DISPLAY: none\" codeBase=\"ScriptX.cab#Version=5,60,0,360\" classid=\"clsid:1663ed61-23eb-11d2-b92f-008048fdd814\"
+			VIEWASTEXT>
+		</OBJECT>-->
+		<form name=\"xskb_form\" method=\"post\" action=\"xskbcx.aspx?xh=2014011736&amp;xm=%B6%C5%BD%A8%B2%A9&amp;gnmkdm=N121603\" id=\"xskb_form\">
+<input type=\"hidden\" name=\"__EVENTTARGET\" value=\"\" />
+<input type=\"hidden\" name=\"__EVENTARGUMENT\" value=\"\" />
+<input type=\"hidden\" name=\"__VIEWSTATE\" value=\"dDwyMjIxNjAyODg7dDw7bDxpPDE+Oz47bDx0PDtsPGk8MT47aTwyPjtpPDQ+O2k8Nz47aTw5PjtpPDExPjtpPDEzPjtpPDE1PjtpPDI0PjtpPDI2PjtpPDI4PjtpPDMwPjtpPDMyPjtpPDM0Pjs+O2w8dDxwPHA8bDxUZXh0Oz47bDxcZTs+Pjs+Ozs+O3Q8dDxwPHA8bDxEYXRhVGV4dEZpZWxkO0RhdGFWYWx1ZUZpZWxkOz47bDx4bjt4bjs+Pjs+O3Q8aTwzPjtAPDIwMTYtMjAxNzsyMDE1LTIwMTY7MjAxNC0yMDE1Oz47QDwyMDE2LTIwMTc7MjAxNS0yMDE2OzIwMTQtMjAxNTs+PjtsPGk8MD47Pj47Oz47dDx0PDs7bDxpPDA+Oz4+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85a2m5Y+377yaMjAxNDAxMTczNjs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85aeT5ZCN77ya5p2c5bu65Y2aOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlrabpmaLvvJrova/ku7blrabpmaI7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOS4k+S4mu+8mui9r+S7tuW3peeoizs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w86KGM5pS/54+t77yaMTTova/ku7blt6XnqIs154+tOz4+Oz47Oz47dDw7bDxpPDE+Oz47bDx0PEAwPDs7Ozs7Ozs7Ozs+Ozs+Oz4+O3Q8cDxsPFZpc2libGU7PjtsPG88Zj47Pj47bDxpPDE+Oz47bDx0PEAwPDs7Ozs7Ozs7Ozs+Ozs+Oz4+O3Q8QDA8cDxwPGw8UGFnZUNvdW50O18hSXRlbUNvdW50O18hRGF0YVNvdXJjZUl0ZW1Db3VudDtEYXRhS2V5czs+O2w8aTwxPjtpPDI+O2k8Mj47bDw+Oz4+Oz47Ozs7Ozs7Ozs7PjtsPGk8MD47PjtsPHQ8O2w8aTwxPjtpPDI+Oz47bDx0PDtsPGk8MD47aTwxPjtpPDI+O2k8Mz47aTw0PjtpPDU+O2k8Nj47aTw3Pjs+O2w8dDxwPHA8bDxUZXh0Oz47bDw5MjYyMTI7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPDkyNjIxMjs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w86LCDMDQzMjs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w8KDIwMTYtMjAxNy0xKS0yNjEwMDAxNDcwLTkyNTAwOS0xOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzova/ku7bov4fnqIs7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOWRqDPnrKw26IqC6L+e57utM+iKgnvnrKw3LTflkah9L+i9r+S7tkMtMzAyL+Wtn+WPjOiLsTs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85ZGoNeesrDboioLov57nu60z6IqCe+esrDctN+WRqH0v6L2v5Lu2Qy0yMDQv5a2f5Y+M6IuxOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDE2LTEwLTE5LTA4LTQ0Oz4+Oz47Oz47Pj47dDw7bDxpPDA+O2k8MT47aTwyPjtpPDM+O2k8ND47aTw1PjtpPDY+O2k8Nz47PjtsPHQ8cDxwPGw8VGV4dDs+O2w8MjAxNjE5Oz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDIxMjM7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOaNojAwNDY7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPCgyMDE2LTIwMTctMSktODEwNTAxMDExMS0yMDE2MTktMzs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85b2i5Yq/5LiO5pS/562WOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlkag156ysOeiKgui/nue7rTLoioJ756ysMTMtMTTlkah9L+WFrOWFseaVmeWtpualvEHluqcxMDkv5p2O5LqR6ZyeOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlkag156ysOeiKgui/nue7rTLoioJ756ysMTMtMTTlkah9L+WFrOWFseaVmeWtpualvEHluqcxMDkv5YiY5Yek5YabOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDE2LTEwLTI0LTE0LTI4Oz4+Oz47Oz47Pj47Pj47Pj47dDxAMDxwPHA8bDxQYWdlQ291bnQ7XyFJdGVtQ291bnQ7XyFEYXRhU291cmNlSXRlbUNvdW50O0RhdGFLZXlzOz47bDxpPDE+O2k8MD47aTwwPjtsPD47Pj47Pjs7Ozs7Ozs7Ozs+Ozs+O3Q8QDA8cDxwPGw8UGFnZUNvdW50O18hSXRlbUNvdW50O18hRGF0YVNvdXJjZUl0ZW1Db3VudDtEYXRhS2V5czs+O2w8aTwxPjtpPDA+O2k8MD47bDw+Oz4+Oz47Ozs7Ozs7Ozs7Pjs7Pjt0PEAwPHA8cDxsPFBhZ2VDb3VudDtfIUl0ZW1Db3VudDtfIURhdGFTb3VyY2VJdGVtQ291bnQ7RGF0YUtleXM7PjtsPGk8MT47aTwwPjtpPDA+O2w8Pjs+Pjs+Ozs7Ozs7Ozs7Oz47Oz47Pj47Pj47PvEqwp+fJQ3N40nndyWQHzPF0mGs\" />
+
+<script language=\"javascript\">
+<!--
+	function __doPostBack(eventTarget, eventArgument) {
+		var theform;
+		if (window.navigator.appName.toLowerCase().indexOf(\"netscape\") > -1) {
+			theform = document.forms[\"xskb_form\"];
+		}
+		else {
+			theform = document.xskb_form;
+		}
+		theform.__EVENTTARGET.value = eventTarget.split(\"$\").join(\":\");
+		theform.__EVENTARGUMENT.value = eventArgument;
+		theform.submit();
+	}
+// -->
+</script>
+
+			<!-- 多功能操作区 -->
+			<!-- 内容显示区开始 -->
+			<div class=\"main_box \">
+				<div class=\"mid_box\">
+					<div class=\"title noprint\">
+						<p>
+							<!-- 查询得到的数据量显示区域 --></p>
+					</div>
+					<!-- From内容 --><span class=\"formbox\">
+						<TABLE class=\"formlist noprint\" id=\"Table2\" width=\"100%\">
+							<TR>
+								<TD align=\"center\"><select name=\"xnd\" onchange=\"__doPostBack(\'xnd\',\'\')\" language=\"javascript\" id=\"xnd\">
+	<option selected=\"selected\" value=\"2016-2017\">2016-2017</option>
+	<option value=\"2015-2016\">2015-2016</option>
+	<option value=\"2014-2015\">2014-2015</option>
+
+</select><span id=\"Label2\"><font size=\"4\">学年第</font></span><select name=\"xqd\" onchange=\"__doPostBack(\'xqd\',\'\')\" language=\"javascript\" id=\"xqd\">
+	<option selected=\"selected\" value=\"1\">1</option>
+	<option value=\"2\">2</option>
+	<option value=\"3\">3</option>
+
+</select><span id=\"Label1\"><font size=\"4\">学期学生个人课程表</font></span></TD>
+							</TR>
+							<TR class=\"trbg1\">
+								<TD><span id=\"Label5\">学号：2014011736</span>|
+									<span id=\"Label6\">姓名：杜建博</span>|
+									<span id=\"Label7\">学院：软件学院</span>|
+									<span id=\"Label8\">专业：软件工程</span>|
+									<span id=\"Label9\">行政班：14软件工程5班</span>
+									&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"labTS\"><font color=\"Red\"></font></span><span id=\"labTip\"><font color=\"Red\"></font></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name=\"btnPrint\" id=\"btnPrint\" type=\"button\" class=\"button\" style=\"DISPLAY:none\" onclick=\"window.print();\" value=\"打印课表\" />
+								</TD>
+							</TR>
+						</TABLE>
+						<br>
+						<table id=\"Table1\" class=\"blacktab\" bordercolor=\"Black\" border=\"0\" width=\"100%\">
+	<tr>
+		<td colspan=\"2\" rowspan=\"1\" width=\"2%\">时间</td><td align=\"Center\" width=\"14%\">星期一</td><td align=\"Center\" width=\"14%\">星期二</td><td align=\"Center\" width=\"14%\">星期三</td><td align=\"Center\" width=\"14%\">星期四</td><td align=\"Center\" width=\"14%\">星期五</td><td class=\"noprint\" align=\"Center\" width=\"14%\">星期六</td><td class=\"noprint\" align=\"Center\" width=\"14%\">星期日</td>
+	</tr><tr>
+		<td colspan=\"2\">早晨</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td rowspan=\"5\" width=\"1%\">上午</td><td width=\"1%\">第1节</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">算法设计与分析<br>选修<br>周一第1,2节{第1-18周}<br>贺毅朝<br>公共教学楼A座306</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">PHP面向对象与框架开发<br>选修<br>周二第1,2节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">PHP语言基础<br>选修<br>周三第1,2节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">LAMP体系结构<br>选修<br>周四第1,2节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" width=\"7%\">&nbsp;</td><td class=\"noprint\" align=\"Center\" width=\"7%\">&nbsp;</td><td class=\"noprint\" align=\"Center\" width=\"7%\">&nbsp;</td>
+	</tr><tr>
+		<td>第2节</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第3节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\" rowspan=\"3\">PHP面向对象与框架开发<br>选修<br>周二第3,4,5节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">PHP语言基础<br>选修<br>周三第3,4,5节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">LAMP体系结构<br>选修<br>周四第3,4,5节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"2\">算法设计与分析<br>选修<br>周五第3,4节{第1-18周}<br>贺毅朝<br>公共教学楼A座306</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第4节</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第5节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td rowspan=\"5\">下午</td><td>第6节</td><td align=\"Center\" rowspan=\"3\">PHP开发实训一<br>选修<br>周一第6,7,8节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">PHP开发实训一<br>选修<br>周二第6,7,8节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">软件过程<br>必修<br>周三第6,7,8节{第1-6周}<br>孟双英<br>软件C-302<br><br><font color=\'red\'>(调0432)</font><br><br>软件过程<br>必修<br>周三第6,7,8节{第8-18周}<br>孟双英<br>软件C-302<br><br><font color=\'red\'>(调0432)</font></td><td align=\"Center\" rowspan=\"2\">PHP开发实训一<br>选修<br>周四第6,7节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">软件过程<br>必修<br>周五第6,7,8节{第7-7周}<br>孟双英<br>软件C-204</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第7节</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第8节</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第9节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\" rowspan=\"2\">PHP开发实训一<br>选修<br>周二第9,10节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\" rowspan=\"2\">形势与政策<br>素质<br>周五第9,10节{第13-14周}<br>李云霞/刘凤军<br>公共教学楼A座109<br><br><font color=\'red\'>(换0046)</font></td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第10节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td rowspan=\"3\" width=\"1%\">晚上</td><td>第11节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第12节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第13节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr>
+</table>
+						<br>
+						
+						
+						<div class=\"noprint\" align=\"left\">调、停（补）课信息：</div>
+						<table class=\"datelist noprint\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"DBGrid\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>编号</td><td>课程名称</td><td>原上课时间地点教师</td><td>现上课时间地点教师</td><td>申请时间</td>
+	</tr><tr>
+		<td>调0432</td><td>软件过程</td><td>周3第6节连续3节{第7-7周}/软件C-302/孟双英</td><td>周5第6节连续3节{第7-7周}/软件C-204/孟双英</td><td>2016-10-19-08-44</td>
+	</tr><tr class=\"alt\">
+		<td>换0046</td><td>形势与政策</td><td>周5第9节连续2节{第13-14周}/公共教学楼A座109/李云霞</td><td>周5第9节连续2节{第13-14周}/公共教学楼A座109/刘凤军</td><td>2016-10-24-14-28</td>
+	</tr>
+</table>
+						<TABLE class=\"noprint\" id=\"Table3\" width=\"100%\">
+							<TR>
+								<TD align=\"left\">实践课(或无上课时间)信息：</TD>
+							</TR>
+							<TR>
+								<TD valign=\"top\"><table class=\"datelist\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"DataGrid1\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>课程名称</td><td>教师</td><td>学分</td><td>起止周</td><td>上课时间</td><td>上课地点</td>
+	</tr>
+</table></TD>
+							</TR>
+							<TR>
+								<TD align=\"left\">实习课信息：</TD>
+							</TR>
+							<TR>
+								<TD><table class=\"datelist\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"DBGridYxkc\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>学年</td><td>学期</td><td>课程名称</td><td>实习时间</td><td>模块代号</td><td>先修模块</td><td>实习编号</td>
+	</tr>
+</table></TD>
+							</TR>
+							<TR>
+								<TD align=\"left\">未安排上课时间的课程：</TD>
+							</TR>
+							<TR>
+								<TD><table class=\"datelist\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"Datagrid2\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>学年</td><td>学期</td><td>课程名称</td><td>教师姓名</td><td>学分</td>
+	</tr>
+</table></TD>
+							</TR>
+						</TABLE>
+					</span>
+					<div class=\"footbox noprint\"><em class=\"footbox_con\"><span class=\"pagination\"></span>
+							<span class=\"footbutton\"></span>
+							<!-- 底部按钮位置 --></em></div>
+				</div>
+			</div>
+		</form>
+	</BODY>
+</HTML>
+')
+
+[ 2016-12-22T14:13:52+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T14:13:52+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T14:14:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T14:14:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T14:14:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-22T14:14:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-22T14:14:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-22T14:14:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-22T15:31:26+08:00 ] 123.125.71.86 /school1/index.php/Home/Activity/activitylist
+ERR: 无法加载控制器:Activity
+
+[ 2016-12-22T16:10:11+08:00 ] 111.11.85.3 /school1/index.php/Home/baocun/goods_id/183
+ERR: 无法加载控制器:Baocun
+
+[ 2016-12-22T16:12:52+08:00 ] 101.226.66.179 /school1/index.php/Home/syllabus/xskbcx.aspx?xh%2525252525252525253D2014011736%25252525252525252526xm%2525252525252525253D%25252525252525252525B6%25252525252525252525C5%25252525252525252525BD%25252525252525252525A8%25252525252525252525B2%25252525252525252525A9%25252525252525252526gnmkdm%2525252525252525253DN121603
+ERR: 非法操作:xskbcx.aspx
+
+[ 2016-12-22T16:12:58+08:00 ] 101.226.51.230 /school1/index.php/Home/syllabus/xskbcx.aspx?xh%2525252525252525253D2014011736%25252525252525252526xm%2525252525252525253D%25252525252525252525B6%25252525252525252525C5%25252525252525252525BD%25252525252525252525A8%25252525252525252525B2%25252525252525252525A9%25252525252525252526gnmkdm%2525252525252525253DN121603
+ERR: 非法操作:xskbcx.aspx
+
+[ 2016-12-22T16:13:01+08:00 ] 101.226.89.116 /school1/index.php/Home/syllabus/xskbcx.aspx?xh%2525252525252525253D2014011736%25252525252525252526xm%2525252525252525253D%25252525252525252525B6%25252525252525252525C5%25252525252525252525BD%25252525252525252525A8%25252525252525252525B2%25252525252525252525A9%25252525252525252526gnmkdm%2525252525252525253DN121603
+ERR: 非法操作:xskbcx.aspx
+
+[ 2016-12-22T16:13:01+08:00 ] 101.226.89.116 /school1/index.php/Home/syllabus/xskbcx.aspx?xh%2525252525252525253D2014011736%25252525252525252526xm%2525252525252525253D%25252525252525252525B6%25252525252525252525C5%25252525252525252525BD%25252525252525252525A8%25252525252525252525B2%25252525252525252525A9%25252525252525252526gnmkdm%2525252525252525253DN121603
+ERR: 非法操作:xskbcx.aspx
+
+[ 2016-12-22T16:16:08+08:00 ] 111.11.85.4 /school1/index.php/Home/baocun/goods_id/185
+ERR: 无法加载控制器:Baocun
+
+[ 2016-12-22T16:16:17+08:00 ] 101.226.125.105 /school1/index.php/Home/baocun/goods_id/185
+ERR: 无法加载控制器:Baocun
+
+[ 2016-12-22T17:11:47+08:00 ] 101.226.61.206 /school1/index.php/Home/Goods/goodsdetail?id%3D170
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T17:32:16+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/login
+ERR: 1048:Le champ 'sylla_stuid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `think_syllabus` (`sylla_stuid`,`sylla_table`) VALUES (NULL,'
+<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
+<HTML lang=\"gb2312\">
+	<HEAD>
+		<title>现代教学管理信息系统</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=EmulateIE7\">
+		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\">
+		<meta http-equiv=\"Content-Language\" content=\"gb2312\">
+		<meta content=\"all\" name=\"robots\">
+		<meta content=\"作者信息\" name=\"author\">
+		<meta content=\"版权信息\" name=\"Copyright\">
+		<meta content=\"站点介绍\" name=\"description\">
+		<meta content=\"站点关键词\" name=\"keywords\">
+		<LINK href=\"style/base/favicon.ico\" type=\"image/x-icon\" rel=\"icon\">
+			<LINK media=\"all\" href=\"style/base/jw.css\" type=\"text/css\" rel=\"stylesheet\">
+				<LINK media=\"all\" href=\"style/standard/jw.css\" type=\"text/css\" rel=\"stylesheet\">
+					<!--<script defer>   
+		function  PutSettings()   
+			{     
+			factory.printing.header=\"\";   
+			factory.printing.footer=\"\";   
+		    factory.printing.leftMargin=\"5\";   
+			factory.printing.topMargin=\"5\";   
+			factory.printing.rightMargin=\"5\";   
+			factory.printing.bottomMargin=\"5\";
+		 }
+
+					</script>-->
+					<style> @media Print { .bgnoprint { }
+	.noprint { DISPLAY: none }}
+	</style>
+	</HEAD>
+	<BODY>
+		<!--<OBJECT id=\"factory\" style=\"DISPLAY: none\" codeBase=\"ScriptX.cab#Version=5,60,0,360\" classid=\"clsid:1663ed61-23eb-11d2-b92f-008048fdd814\"
+			VIEWASTEXT>
+		</OBJECT>-->
+		<form name=\"xskb_form\" method=\"post\" action=\"xskbcx.aspx?xh=2014011741&amp;xm=%C1%F5%B3%A9&amp;gnmkdm=N121603\" id=\"xskb_form\">
+<input type=\"hidden\" name=\"__EVENTTARGET\" value=\"\" />
+<input type=\"hidden\" name=\"__EVENTARGUMENT\" value=\"\" />
+<input type=\"hidden\" name=\"__VIEWSTATE\" value=\"dDwyMjIxNjAyODg7dDw7bDxpPDE+Oz47bDx0PDtsPGk8MT47aTwyPjtpPDQ+O2k8Nz47aTw5PjtpPDExPjtpPDEzPjtpPDE1PjtpPDI0PjtpPDI2PjtpPDI4PjtpPDMwPjtpPDMyPjtpPDM0Pjs+O2w8dDxwPHA8bDxUZXh0Oz47bDxcZTs+Pjs+Ozs+O3Q8dDxwPHA8bDxEYXRhVGV4dEZpZWxkO0RhdGFWYWx1ZUZpZWxkOz47bDx4bjt4bjs+Pjs+O3Q8aTwzPjtAPDIwMTYtMjAxNzsyMDE1LTIwMTY7MjAxNC0yMDE1Oz47QDwyMDE2LTIwMTc7MjAxNS0yMDE2OzIwMTQtMjAxNTs+PjtsPGk8MD47Pj47Oz47dDx0PDs7bDxpPDA+Oz4+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85a2m5Y+377yaMjAxNDAxMTc0MTs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85aeT5ZCN77ya5YiY55WFOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlrabpmaLvvJrova/ku7blrabpmaI7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOS4k+S4mu+8mui9r+S7tuW3peeoizs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w86KGM5pS/54+t77yaMTTova/ku7blt6XnqIs154+tOz4+Oz47Oz47dDw7bDxpPDE+Oz47bDx0PEAwPDs7Ozs7Ozs7Ozs+Ozs+Oz4+O3Q8cDxsPFZpc2libGU7PjtsPG88Zj47Pj47bDxpPDE+Oz47bDx0PEAwPDs7Ozs7Ozs7Ozs+Ozs+Oz4+O3Q8QDA8cDxwPGw8UGFnZUNvdW50O18hSXRlbUNvdW50O18hRGF0YVNvdXJjZUl0ZW1Db3VudDtEYXRhS2V5czs+O2w8aTwxPjtpPDU+O2k8NT47bDw+Oz4+Oz47Ozs7Ozs7Ozs7PjtsPGk8MD47PjtsPHQ8O2w8aTwxPjtpPDI+O2k8Mz47aTw0PjtpPDU+Oz47bDx0PDtsPGk8MD47aTwxPjtpPDI+O2k8Mz47aTw0PjtpPDU+O2k8Nj47aTw3Pjs+O2w8dDxwPHA8bDxUZXh0Oz47bDw5MjYyMTI7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPDkyNjIxMjs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w86LCDMDQzMjs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w8KDIwMTYtMjAxNy0xKS0yNjEwMDAxNDcwLTkyNTAwOS0xOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzova/ku7bov4fnqIs7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOWRqDPnrKw26IqC6L+e57utM+iKgnvnrKw3LTflkah9L+i9r+S7tkMtMzAyL+Wtn+WPjOiLsTs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85ZGoNeesrDboioLov57nu60z6IqCe+esrDctN+WRqH0v6L2v5Lu2Qy0yMDQv5a2f5Y+M6IuxOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDE2LTEwLTE5LTA4LTQ0Oz4+Oz47Oz47Pj47dDw7bDxpPDA+O2k8MT47aTwyPjtpPDM+O2k8ND47aTw1PjtpPDY+O2k8Nz47PjtsPHQ8cDxwPGw8VGV4dDs+O2w8OTI2MTI4Oz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDw5MjYxMjg7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOiwgzA3MzY7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPCgyMDE2LTIwMTctMSktMjYxMDAwMDA2MC05MjYxMjgtMTs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85pWw5o2u57uT5p6EOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlkagy56ysOeiKgui/nue7rTLoioJ756ysMTYtMTflkah9L+i9r+S7tkMtMzA0L+mZiOa2pui1hDs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85ZGoM+esrDEx6IqC6L+e57utMuiKgnvnrKwxMi0xM+WRqH0v6L2v5Lu2Qy0zMDYv6ZmI5ram6LWEOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDE2LTExLTE4LTE0LTIyOz4+Oz47Oz47Pj47dDw7bDxpPDA+O2k8MT47aTwyPjtpPDM+O2k8ND47aTw1PjtpPDY+O2k8Nz47PjtsPHQ8cDxwPGw8VGV4dDs+O2w8OTI2MTI4Oz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDw5MjYxMjg7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOiwgzA3Mzc7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPCgyMDE2LTIwMTctMSktMjYxMDAwMDA2MC05MjYxMjgtMTs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85pWw5o2u57uT5p6EOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlkag156ysM+iKgui/nue7rTPoioJ756ysMTYtMTblkajlj4zlkah9L+i9r+S7tkMtMjA0L+mZiOa2pui1hDs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85ZGoM+esrDEx6IqC6L+e57utM+iKgnvnrKwxNC0xNOWRqOWPjOWRqH0v6L2v5Lu2Qy0zMDYv6ZmI5ram6LWEOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDE2LTExLTE4LTE0LTI2Oz4+Oz47Oz47Pj47dDw7bDxpPDA+O2k8MT47aTwyPjtpPDM+O2k8ND47aTw1PjtpPDY+O2k8Nz47PjtsPHQ8cDxwPGw8VGV4dDs+O2w8OTI2MTI4Oz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDw5MjYxMjg7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOiwgzA3Mzg7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPCgyMDE2LTIwMTctMSktMjYxMDAwMDA2MC05MjYxMjgtMTs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85pWw5o2u57uT5p6EOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlkag156ysM+iKgui/nue7rTLoioJ756ysMTctMTflkajljZXlkah9L+i9r+S7tkMtMjA0L+mZiOa2pui1hDs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85ZGoM+esrDEx6IqC6L+e57utMuiKgnvnrKwxNS0xNeWRqOWNleWRqH0v6L2v5Lu2Qy0zMDYv6ZmI5ram6LWEOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDE2LTExLTE4LTE0LTI3Oz4+Oz47Oz47Pj47dDw7bDxpPDA+O2k8MT47aTwyPjtpPDM+O2k8ND47aTw1PjtpPDY+O2k8Nz47PjtsPHQ8cDxwPGw8VGV4dDs+O2w8MjAxNjE5Oz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDIxMjM7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPOaNojAwNDY7Pj47Pjs7Pjt0PHA8cDxsPFRleHQ7PjtsPCgyMDE2LTIwMTctMSktODEwNTAxMDExMS0yMDE2MTktMzs+Pjs+Ozs+O3Q8cDxwPGw8VGV4dDs+O2w85b2i5Yq/5LiO5pS/562WOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlkag156ysOeiKgui/nue7rTLoioJ756ysMTMtMTTlkah9L+WFrOWFseaVmeWtpualvEHluqcxMDkv5p2O5LqR6ZyeOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDzlkag156ysOeiKgui/nue7rTLoioJ756ysMTMtMTTlkah9L+WFrOWFseaVmeWtpualvEHluqcxMDkv5YiY5Yek5YabOz4+Oz47Oz47dDxwPHA8bDxUZXh0Oz47bDwyMDE2LTEwLTI0LTE0LTI4Oz4+Oz47Oz47Pj47Pj47Pj47dDxAMDxwPHA8bDxQYWdlQ291bnQ7XyFJdGVtQ291bnQ7XyFEYXRhU291cmNlSXRlbUNvdW50O0RhdGFLZXlzOz47bDxpPDE+O2k8MD47aTwwPjtsPD47Pj47Pjs7Ozs7Ozs7Ozs+Ozs+O3Q8QDA8cDxwPGw8UGFnZUNvdW50O18hSXRlbUNvdW50O18hRGF0YVNvdXJjZUl0ZW1Db3VudDtEYXRhS2V5czs+O2w8aTwxPjtpPDA+O2k8MD47bDw+Oz4+Oz47Ozs7Ozs7Ozs7Pjs7Pjt0PEAwPHA8cDxsPFBhZ2VDb3VudDtfIUl0ZW1Db3VudDtfIURhdGFTb3VyY2VJdGVtQ291bnQ7RGF0YUtleXM7PjtsPGk8MT47aTwwPjtpPDA+O2w8Pjs+Pjs+Ozs7Ozs7Ozs7Oz47Oz47Pj47Pj47PoFLCtj4Q70gF6NmLQUj2KidYlv0\" />
+
+<script language=\"javascript\">
+<!--
+	function __doPostBack(eventTarget, eventArgument) {
+		var theform;
+		if (window.navigator.appName.toLowerCase().indexOf(\"netscape\") > -1) {
+			theform = document.forms[\"xskb_form\"];
+		}
+		else {
+			theform = document.xskb_form;
+		}
+		theform.__EVENTTARGET.value = eventTarget.split(\"$\").join(\":\");
+		theform.__EVENTARGUMENT.value = eventArgument;
+		theform.submit();
+	}
+// -->
+</script>
+
+			<!-- 多功能操作区 -->
+			<!-- 内容显示区开始 -->
+			<div class=\"main_box \">
+				<div class=\"mid_box\">
+					<div class=\"title noprint\">
+						<p>
+							<!-- 查询得到的数据量显示区域 --></p>
+					</div>
+					<!-- From内容 --><span class=\"formbox\">
+						<TABLE class=\"formlist noprint\" id=\"Table2\" width=\"100%\">
+							<TR>
+								<TD align=\"center\"><select name=\"xnd\" onchange=\"__doPostBack(\'xnd\',\'\')\" language=\"javascript\" id=\"xnd\">
+	<option selected=\"selected\" value=\"2016-2017\">2016-2017</option>
+	<option value=\"2015-2016\">2015-2016</option>
+	<option value=\"2014-2015\">2014-2015</option>
+
+</select><span id=\"Label2\"><font size=\"4\">学年第</font></span><select name=\"xqd\" onchange=\"__doPostBack(\'xqd\',\'\')\" language=\"javascript\" id=\"xqd\">
+	<option selected=\"selected\" value=\"1\">1</option>
+	<option value=\"2\">2</option>
+	<option value=\"3\">3</option>
+
+</select><span id=\"Label1\"><font size=\"4\">学期学生个人课程表</font></span></TD>
+							</TR>
+							<TR class=\"trbg1\">
+								<TD><span id=\"Label5\">学号：2014011741</span>|
+									<span id=\"Label6\">姓名：刘畅</span>|
+									<span id=\"Label7\">学院：软件学院</span>|
+									<span id=\"Label8\">专业：软件工程</span>|
+									<span id=\"Label9\">行政班：14软件工程5班</span>
+									&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"labTS\"><font color=\"Red\"></font></span><span id=\"labTip\"><font color=\"Red\"></font></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name=\"btnPrint\" id=\"btnPrint\" type=\"button\" class=\"button\" style=\"DISPLAY:none\" onclick=\"window.print();\" value=\"打印课表\" />
+								</TD>
+							</TR>
+						</TABLE>
+						<br>
+						<table id=\"Table1\" class=\"blacktab\" bordercolor=\"Black\" border=\"0\" width=\"100%\">
+	<tr>
+		<td colspan=\"2\" rowspan=\"1\" width=\"2%\">时间</td><td align=\"Center\" width=\"14%\">星期一</td><td align=\"Center\" width=\"14%\">星期二</td><td align=\"Center\" width=\"14%\">星期三</td><td align=\"Center\" width=\"14%\">星期四</td><td align=\"Center\" width=\"14%\">星期五</td><td class=\"noprint\" align=\"Center\" width=\"14%\">星期六</td><td class=\"noprint\" align=\"Center\" width=\"14%\">星期日</td>
+	</tr><tr>
+		<td colspan=\"2\">早晨</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td rowspan=\"5\" width=\"1%\">上午</td><td width=\"1%\">第1节</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">算法设计与分析<br>选修<br>周一第1,2节{第1-18周}<br>贺毅朝<br>公共教学楼A座306</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">PHP面向对象与框架开发<br>选修<br>周二第1,2节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">PHP语言基础<br>选修<br>周三第1,2节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"2\" width=\"7%\">LAMP体系结构<br>选修<br>周四第1,2节{第1-18周}<br>张志敏<br>软件C-306<br><br>大学英语三<br>必修<br>周四第1,2节{第1-18周}<br>王平<br>大外第2语音室</td><td align=\"Center\" width=\"7%\">&nbsp;</td><td class=\"noprint\" align=\"Center\" width=\"7%\">&nbsp;</td><td class=\"noprint\" align=\"Center\" width=\"7%\">&nbsp;</td>
+	</tr><tr>
+		<td>第2节</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第3节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\" rowspan=\"3\">PHP面向对象与框架开发<br>选修<br>周二第3,4,5节{第1-18周}<br>张志敏<br>软件C-306<br><br>大学英语三<br>必修<br>周二第3,4节{第1-18周}<br>王平<br>公共教学楼D座511</td><td align=\"Center\" rowspan=\"3\">PHP语言基础<br>选修<br>周三第3,4,5节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">LAMP体系结构<br>选修<br>周四第3,4,5节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"2\">数据结构<br>必修<br>周五第3,4节{第1-15周|单周}<br>陈润资<br>软件C-204<br><br><font color=\'red\'>(调0738)</font><br><br>数据结构<br>必修<br>周五第3,4,5节{第2-14周|双周}<br>陈润资<br>软件C-204<br><br><font color=\'red\'>(调0737)</font><br><br>数据结构<br>必修<br>周五第3,4,5节{第18-18周}<br>陈润资<br>软件C-204<br><br><font color=\'red\'>(调0737)</font><br><br>算法设计与分析<br>选修<br>周五第3,4节{第1-18周}<br>贺毅朝<br>公共教学楼A座306</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第4节</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第5节</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td rowspan=\"5\">下午</td><td>第6节</td><td align=\"Center\" rowspan=\"3\">PHP开发实训一<br>选修<br>周一第6,7,8节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">PHP开发实训一<br>选修<br>周二第6,7,8节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">软件过程<br>必修<br>周三第6,7,8节{第1-6周}<br>孟双英<br>软件C-302<br><br><font color=\'red\'>(调0432)</font><br><br>软件过程<br>必修<br>周三第6,7,8节{第8-18周}<br>孟双英<br>软件C-302<br><br><font color=\'red\'>(调0432)</font></td><td align=\"Center\" rowspan=\"2\">PHP开发实训一<br>选修<br>周四第6,7节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\" rowspan=\"3\">软件过程<br>必修<br>周五第6,7,8节{第7-7周}<br>孟双英<br>软件C-204</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第7节</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第8节</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第9节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\" rowspan=\"2\">数据结构<br>必修<br>周二第9,10节{第1-15周}<br>陈润资<br>软件C-304<br><br><font color=\'red\'>(调0736)</font><br><br>数据结构<br>必修<br>周二第9,10节{第18-18周}<br>陈润资<br>软件C-304<br><br><font color=\'red\'>(调0736)</font><br><br>PHP开发实训一<br>选修<br>周二第9,10节{第1-18周}<br>张志敏<br>软件C-306</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\" rowspan=\"2\">形势与政策<br>素质<br>周五第9,10节{第13-14周}<br>李云霞/刘凤军<br>公共教学楼A座109<br><br><font color=\'red\'>(换0046)</font></td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第10节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td rowspan=\"3\" width=\"1%\">晚上</td><td>第11节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\" rowspan=\"3\">数据结构<br>必修<br>周三第11,12,13节{第14-14周}<br>陈润资<br>软件C-306<br><br>数据结构<br>必修<br>周三第11,12节{第12-13周}<br>陈润资<br>软件C-306<br><br>数据结构<br>必修<br>周三第11,12节{第15-15周}<br>陈润资<br>软件C-306</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第12节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr><tr>
+		<td>第13节</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td><td class=\"noprint\" align=\"Center\">&nbsp;</td>
+	</tr>
+</table>
+						<br>
+						
+						
+						<div class=\"noprint\" align=\"left\">调、停（补）课信息：</div>
+						<table class=\"datelist noprint\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"DBGrid\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>编号</td><td>课程名称</td><td>原上课时间地点教师</td><td>现上课时间地点教师</td><td>申请时间</td>
+	</tr><tr>
+		<td>调0432</td><td>软件过程</td><td>周3第6节连续3节{第7-7周}/软件C-302/孟双英</td><td>周5第6节连续3节{第7-7周}/软件C-204/孟双英</td><td>2016-10-19-08-44</td>
+	</tr><tr class=\"alt\">
+		<td>调0736</td><td>数据结构</td><td>周2第9节连续2节{第16-17周}/软件C-304/陈润资</td><td>周3第11节连续2节{第12-13周}/软件C-306/陈润资</td><td>2016-11-18-14-22</td>
+	</tr><tr>
+		<td>调0737</td><td>数据结构</td><td>周5第3节连续3节{第16-16周双周}/软件C-204/陈润资</td><td>周3第11节连续3节{第14-14周双周}/软件C-306/陈润资</td><td>2016-11-18-14-26</td>
+	</tr><tr class=\"alt\">
+		<td>调0738</td><td>数据结构</td><td>周5第3节连续2节{第17-17周单周}/软件C-204/陈润资</td><td>周3第11节连续2节{第15-15周单周}/软件C-306/陈润资</td><td>2016-11-18-14-27</td>
+	</tr><tr>
+		<td>换0046</td><td>形势与政策</td><td>周5第9节连续2节{第13-14周}/公共教学楼A座109/李云霞</td><td>周5第9节连续2节{第13-14周}/公共教学楼A座109/刘凤军</td><td>2016-10-24-14-28</td>
+	</tr>
+</table>
+						<TABLE class=\"noprint\" id=\"Table3\" width=\"100%\">
+							<TR>
+								<TD align=\"left\">实践课(或无上课时间)信息：</TD>
+							</TR>
+							<TR>
+								<TD valign=\"top\"><table class=\"datelist\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"DataGrid1\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>课程名称</td><td>教师</td><td>学分</td><td>起止周</td><td>上课时间</td><td>上课地点</td>
+	</tr>
+</table></TD>
+							</TR>
+							<TR>
+								<TD align=\"left\">实习课信息：</TD>
+							</TR>
+							<TR>
+								<TD><table class=\"datelist\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"DBGridYxkc\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>学年</td><td>学期</td><td>课程名称</td><td>实习时间</td><td>模块代号</td><td>先修模块</td><td>实习编号</td>
+	</tr>
+</table></TD>
+							</TR>
+							<TR>
+								<TD align=\"left\">未安排上课时间的课程：</TD>
+							</TR>
+							<TR>
+								<TD><table class=\"datelist\" cellspacing=\"0\" cellpadding=\"3\" border=\"0\" id=\"Datagrid2\" width=\"100%\">
+	<tr class=\"datelisthead\">
+		<td>学年</td><td>学期</td><td>课程名称</td><td>教师姓名</td><td>学分</td>
+	</tr>
+</table></TD>
+							</TR>
+						</TABLE>
+					</span>
+					<div class=\"footbox noprint\"><em class=\"footbox_con\"><span class=\"pagination\"></span>
+							<span class=\"footbutton\"></span>
+							<!-- 底部按钮位置 --></em></div>
+				</div>
+			</div>
+		</form>
+	</BODY>
+</HTML>
+')
+
+[ 2016-12-22T17:32:16+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T17:32:16+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T17:33:47+08:00 ] 111.11.85.3 /school1/index.php/Home/User/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='liuchang' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-22T17:34:19+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T17:34:19+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T17:35:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T17:35:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T17:35:17+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:30+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:30+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T17:35:30+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:30+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T17:35:30+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:30+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:47+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T17:35:47+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:47+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-22T17:35:47+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:47+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-22T17:35:47+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-22T18:26:34+08:00 ] 101.226.33.240 /school1/index.php/Home/Activity/activitylist
+ERR: 无法加载控制器:Activity
+
+[ 2016-12-22T18:28:10+08:00 ] 101.226.89.115 /school1/index.php/Home/Goods/goodsdetail?id%3D172
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T18:28:28+08:00 ] 114.233.88.178 /school1/index.php/Home/Goods/goodsdetail?id%3D172
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T18:48:18+08:00 ] 101.226.125.104 /school1/index.php/Home/Goods/goodsdetail?id%3D179
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T19:23:30+08:00 ] 180.153.206.24 /school1/index.php/Home/Lost/lostdetail?id%3D27
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-22T19:38:08+08:00 ] 180.153.206.22 /school1/index.php/Home/syllabus/xskbcx.aspx?xh%252525252525252525253D2014011736%2525252525252525252526xm%252525252525252525253D%2525252525252525252525B6%2525252525252525252525C5%2525252525252525252525BD%2525252525252525252525A8%2525252525252525252525B2%2525252525252525252525A9%2525252525252525252526gnmkdm%252525252525252525253DN121603
+ERR: 非法操作:xskbcx.aspx
+
+[ 2016-12-22T19:56:08+08:00 ] 180.153.212.13 /school1/index.php/Home/Goods/goodsdetail?id%3D169
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T20:03:36+08:00 ] 101.226.33.224 /school1/index.php/Home/Lost/lostdetail?id%3D26
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-22T20:15:15+08:00 ] 101.226.89.116 /school1/index.php/Home/Goods/goodsdetail?id%253D170
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T20:47:40+08:00 ] 101.226.125.100 /school1/index.php/Home/Goods/goodsdetail?id%3D178
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T21:38:51+08:00 ] 101.226.65.102 /school1/index.php/Home/Goods/goodsdetail?id%253D172
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T21:39:02+08:00 ] 27.47.115.52 /school1/index.php/Home/Goods/goodsdetail?id%253D172
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T22:01:54+08:00 ] 183.57.53.222 /school1/index.php/Home/Goods/goodsdetail?id%3D180
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T22:02:04+08:00 ] 180.153.211.190 /school1/index.php/Home/Goods/goodsdetail?id%3D180
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T22:02:20+08:00 ] 58.253.150.166 /school1/index.php/Home/Goods/goodsdetail?id%3D180
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T22:04:28+08:00 ] 101.226.79.182 /school1/index.php/Home/syllabus/xskbcx.aspx?xh%25252525252525252525253D2014011736%252525252525252525252526xm%25252525252525252525253D%252525252525252525252525B6%252525252525252525252525C5%252525252525252525252525BD%252525252525252525252525A8%252525252525252525252525B2%252525252525252525252525A9%252525252525252525252526gnmkdm%25252525252525252525253DN121603
+ERR: 非法操作:xskbcx.aspx
+
+[ 2016-12-22T22:10:12+08:00 ] 61.151.218.119 /school1/index.php/Home/Goods/goodsdetail?id%253D179
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-22T22:17:49+08:00 ] 101.226.51.226 /school1/index.php/Home/Lost/lostdetail?id%253D27
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-22T23:54:35+08:00 ] 101.226.125.16 /school1/index.php/Home/Goods/goodsdetail?id%253D169
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+

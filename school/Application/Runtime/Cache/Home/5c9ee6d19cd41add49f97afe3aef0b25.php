@@ -1,120 +1,104 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta name="Generator" content="YONGDA v1.0" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="Keywords" content="" />
-        <meta name="Description" content="" />
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0064)http://www.17sucai.com/preview/137615/2015-01-15/demo/index.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000" http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<TITLE>登录页面</TITLE> 
+<SCRIPT src="/school1/Public/Home/js/jquery-1.9.1.min.js" type="text/javascript"></SCRIPT>
+ <link rel="stylesheet" type="text/css" href="/school1/Public/Home/css/login.css">
+<script type="text/javascript" src="/school1/Public/Home/js/jquery.js"></script>
+     
+<SCRIPT type="text/javascript">
+$(function(){
+	//得到焦点
+	$("#userpassword").focus(function(){
+		$("#left_hand").animate({
+			left: "150",
+			top: " -38"
+		},{step: function(){
+			if(parseInt($("#left_hand").css("left"))>140){
+				$("#left_hand").attr("class","left_hand");
+			}
+		}}, 2000);
+		$("#right_hand").animate({
+			right: "-64",
+			top: "-38px"
+		},{step: function(){
+			if(parseInt($("#right_hand").css("right"))> -70){
+				$("#right_hand").attr("class","right_hand");
+			}
+		}}, 2000);
+	});
+	//失去焦点
+	$("#userpassword").blur(function(){
+		$("#left_hand").attr("class","initial_left_hand");
+		$("#left_hand").attr("style","left:100px;top:-12px;");
+		$("#right_hand").attr("class","initial_right_hand");
+		$("#right_hand").attr("style","right:-112px;top:-12px");
+	});
+});
+</SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.9600.17496"></HEAD> 
+<BODY>
+<DIV class="top_div"></DIV>
+<DIV style="background: rgb(255, 255, 255); margin: -100px auto auto; border: 1px solid rgb(231, 231, 231); border-image: none; width: 600px; height: 250px; text-align: center;">
+<DIV style="width: 165px; height: 96px; position: absolute;">
+<DIV class="tou"></DIV>
+<DIV class="initial_left_hand" id="left_hand"></DIV>
+<DIV class="initial_right_hand" id="right_hand"></DIV></DIV>
+<form name="formLogin" action="/school1/index.php/Home/user/login.html" method="post">
+<P style="padding: 30px 0px 10px; position: relative;"><span class="u_logo"></span>
+         <INPUT class="ipt" type="text"   placeholder="请输入用户名" name='username' id='username' value=""> <label></label>
+    </P>
+<P style="position: relative;">
+<SPAN class="p_logo"></SPAN>         
+<INPUT class="ipt"  name='userpassword'  id="userpassword" type="password" placeholder="请输入密码" value="">  <label></label> 
+  </P>
+  <P style="position: relative;"><SPAN class="p_logo"></SPAN>         
+<INPUT class="ipt"  name='yanzhengma' style="width: 120px;" type="text" placeholder="验证码" value="" > <img src="/school1/index.php/Home/User/VerifyImg" alt="" onClick="this.src=this.src+'?'+Math.random()"/>
+                                    点击刷新  
+  </P>
 
-        <title>用户中心_YONGDA商城 - Powered by YongDa</title>
+<DIV style="height: 50px; line-height: 50px; margin-top: 30px; border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: solid;">
+<P style="margin: 0px 35px 20px 45px;"><SPAN style="float: left;"><A style="color: blue;" 
+href="/school1/index.php/Home/index/index">回到首页</A></SPAN> 
 
-        <link href="/school1/Public/Home/css/registerstyle.css" rel="stylesheet" type="text/css" />
+           <SPAN style="float: right;"><A style="color:blue; margin-right: 10px;" 
+href="/school1/index.php/Home/User/register">注册</A>  
 
-    </head>
-    <body>
-       
-        <div class="block block1">
-            <div class="block box">
-                <div class="blank"></div>
-                <div id="ur_here">
-                    当前位置: <a href="">首页</a> <code>&gt;</code> 用户中心
-                </div>
-            </div>
-            <div class="blank"></div>
+              <input type='submit' value="登录" style="background: rgb(0, 142, 173); padding: 7px 10px; border-radius: 4px; border: 1px solid rgb(26, 117, 152); border-image: none; color: rgb(255, 255, 255); font-weight: bold;" 
+> 
 
-            <div class="block box">
+</form>
+           </SPAN>         </P></DIV></DIV>
+		   <div style="text-align:center;">
 
-            <div class="usBox clearfix">
-                <div class="usBox_1 f_l">
-                    <div class="logtitle"></div>
-                    <form name="formLogin" action="/school1/index.php/Home/user/login.html" method="post">
-                        <table align="left" border="0" cellpadding="3" cellspacing="5" width="100%">
-                            <tbody><tr>
-                                    <td align="right" width="15%">用户名</td>
-                                    <td width="85%"><input name="username" size="25" class="inputBg" type="text" /></td>
-                                </tr>
-                                <tr>
-                                    <td align="right">密码</td>
-                                    <td>
-                                        <input name="password" size="25" class="inputBg" type="password" />
-                                    </td>
-                                </tr>
-                            <tr>
-                                <td align="right">验证码</td>
+</div></BODY>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#username").blur(function () {
+            var username = $("#username").val();
+            var span = $("#username").parent().children("label");
+            if(username==""){
+                span.css('color', 'red');
+                span.text('用户名不能为空');
+            }else{
+                span.text('');
+            }
+        });
 
-                                <td>
-                                    <input name="yanzhengma" size="10" class="inputBg" type="text" />
-                                    <img src="/school/Home/User/VerifyImg" alt="" onClick="this.src=this.src+'?'+Math.random()"/>
-                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp点击图片刷新验证码
-                                </td>
-                            </tr>
-                                <tr>
-                                    <td colspan="2"><input value="1" name="remember" id="remember" type="checkbox" />
-                                        <label for="remember">请保存我这次的登录信息。</label></td>
-                                </tr>
-                                <tr>
-                                    <td>&nbsp;</td>
-                                    <td align="left">
-                                        <input name="act" value="act_login" type="hidden" />
-                                        <input name="back_act" value="./index.php" type="hidden" />
-                                        <input name="submit" value="" class="us_Submit" type="submit" />
+        $("#userpassword").blur(function () {
+            var userpassword = $("#userpassword").val();
+            var span = $("#userpassword").parent().children("label");
+            if(userpassword==""){
+                span.css('color', 'red');
+                span.text('密码不能为空');
+            }else{
+                span.text('');
+            }
+        });
+    })
 
-                                        <input name="submit" value="" class="qqlogin" type="submit" />
-                                    </td>
-                                </tr>
-
-                            </tbody></table>
-                    </form>
-                    <div class="blank"></div>
-                </div>
-                <div class="usTxt">
-                    <div class="regtitle"></div>
-                    <div style="padding-left: 50px;">
-                        <strong>如果您不是会员，请注册</strong>  <br />
-                        <strong class="f4">友情提示：</strong><br />
-                        不注册为会员也可浏览本网站<br />
-                        但注册之后您可以：<br />
-                        1. 收藏您关注的商品<br />
-                        2. 购买您关注的商品<br />
-                        3. 查询您的成绩    <br />
-                        4. 查询您的课表    <br />
-                        <a href="/school/Home/User/register"><img src="/school1/Public/Home/images/bnt_ur_reg.gif"></a>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
-            <div class="blank"></div>
-            
-
-            <div class="blank"></div>
-
-
-            <div id="bottomNav" class="box block">
-                <div class="bNavList clearfix">
-                    <a href="#">Powered&nbsp;by&nbsp;<strong><span style="color: rgb(51, 102, 255);">YongDa</span></strong></a>
-                    |
-                    <a href="#">隐私保护</a>
-                    |
-                    <a href="#">咨询热点</a>
-                    |
-                    <a href="#">联系我们</a>
-                    |
-                    <a href="#">公司简介</a>
-                    |
-                    <a href="#">批发方案</a>
-                    |
-                    <a href="#">配送方式</a>
-
-                </div>
-            </div>
-        </div>
-
-
-        <div id="footer">
-            <div class="text">
-                © 2005-2012 YONGDA 版权所有，并保留所有权利。<br />
-            </div>
-        </div>
-    </body>
-</html>
+</script>
+</HTML>

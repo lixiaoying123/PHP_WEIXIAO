@@ -9,30 +9,72 @@
     <link rel="stylesheet" href="/school1/Public/Home/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="/school1/Public/Home/css/goodslist.css" type="text/css" media="all" />
     <!--[if lt IE 9]><script type="text/javascript" src="/school1/Public/Home/js/html5.js" ></script><![endif]-->
+    <style type="text/css">
+        #caseslist .cat_title .wrapper a{
+            text-decoration:none ;
+            font-size:15px;
+            text-align:left
+        }
+        .leftmenu a:active,
+.leftmenu a:visited,
+.leftmenu a:link {
+    display: block;
+    text-decoration: none;
+    margin: 6px 10px 6px 0px;
+    padding: 2px 6px 2px 6px;
+    color: #00527f;
+    background-color: #d9e8f3;
+    border: 1px solid #004266;
+}
+
+.leftmenu a:hover {
+    color: red;
+    background-color: #8cbbda;
+}
+    </style>
 </head>
 <body>
-<header>
+
+<header style="background-color: black;">
     <div id="navbg"></div>
-    <div class="wrapper">
+
+    <div class="wrapper" >
         <h1 class="logo">
-            <a href="index.htm"  title="微校">
-                <img src="/school1/Public/Home/images/logo.png" width="213" height="36" alt="" />
+            <a href="#"  title="微校">
+                <img src="/school1/Public/Home/images/logo1.png" width="150" height="50" alt="" />
             </a>
         </h1>
         <nav>
             <ul>
                 <li class="home"><a href="/school1/index.php/Home/index/index" >首页<span>网站首页！</span></a></li>
-                <li class="cases"><a href="/school1/index.php/Home/Goods/goodslist" title="网页制作">商品<span>都有哪些商品</span></a></li>
-                <li class="service"><a href="/school1/index.php/Home/syllabus/syllabus"  title="网站建设">课程表<span>都有什么课</span></a></li>
-                <li class="client"><a href="/school1/index.php/Home/Grade/grade"  title="解决方案">成绩<span>考了多少？</span></a></li>
-                <li class="about"><a href="/school1/index.php/Home/about/about"  title="关于学校">关于<span>项目如何</span></a></li>
+                <li class="cases"><a href="/school1/index.php/Home/news/newslist" title="网页制作">新闻<span>都有大事发生</span></a></li>
+                <li class="service"><a href="/school1/index.php/Home/syllabus/login"  title="网站建设">课程表<span>都有什么课</span></a></li>
+                <li class="client"><a href="/school1/index.php/Home/Grade/login"  title="解决方案">成绩<span>考了多少？</span></a></li>
+                <li class="about"><a href="/school1/index.php/Home/goods/goodslist" title="二手交易">二手交易<span>都有哪些商品</span></a></li>
+                <li class="loser"><a href="/school1/index.php/Home/lost/lostlist" title="失物招领">失物招领<span>都有哪些物品</span></a></li>
+                <!--<li class="about"><a href="#"  title="关于学校">更多<span>更多功能</span></a>
+                    <ul>
+                        <li><a href="/school1/index.php/Home/goods/goodslist" title="二手交易">二手交易</a></li>
+                        <li><a href="/school1/index.php/Home/lost/lostlist" title="失物招领">失物招领</a></li>
+                    </ul>
+                </li>-->
             </ul>
         </nav>
-        <?php
- if($_SESSION['username']!=null){ $self=U('user/self'); echo "欢迎您,"."<a href='$self'>".$_SESSION['username']."</a>"; echo "&nbsp&nbsp"; $logout=U('user/logout'); echo "<a href='$logout'>注销</a> "; } else { $login=U('user/login'); $register=U('user/register'); echo "<a href='$login'>登录</a>
-        <a href='$register'>注册</a>" ; } ?>
+
+
     </div>
+
+    <div class="login" style="float:left;font-size: 16px;padding-left: 10px;color: lightgray ;position:fixed;">
+        <?php
+ if($_SESSION['username']!=null){ $self=U('user/self'); echo "欢迎您："."<a href='$self' style='text-decoration:underline;font-size: 15px;color:#FDF5E6;font-family: Helvetica;'>".$_SESSION['username']."</a>"; echo "&nbsp&nbsp"; $logout=U('user/logout'); $messageid = U("user/message"); $message = D('message'); $data = array('user_name'=>session('username'),'status'=>0); $count = $message->where($data)->count(); if($count>0){ echo "&nbsp;&nbsp;<a href='$logout' style='text-decoration:underline;font-size: 15px;color:#FDF5E6;font-family: Helvetica;'>注销</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href='$messageid'><img src='/school1/Public/home/images/5.jpg'/> </a>"; }else{ echo "&nbsp;&nbsp;<a href='$logout' style='text-decoration:underline;font-size: 15px;color:#FDF5E6;font-family: Helvetica;'>注销</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href='$messageid'><img src='/school1/Public/home/images/4.jpg'/> </a>";} }else { $login=U('user/login'); $register=U('user/register'); echo "&nbsp&nbsp<a href='$login' style='text-decoration:underline;font-size: 15px;color:#FDF5E6;font-family: Helvetica;'>亲，请登录</a>&nbsp&nbsp
+        <a href='$register' style='text-decoration:underline;font-size: 15px;color:#FDF5E6;font-family: Helvetica;'>快速注册</a>" ; } ?>
+    </div>
+
 </header>
+
+
+
+
 <!-- 查找最顶级栏目  -->
 <section id="caseslist">
     <div class="cat_title">
@@ -40,14 +82,17 @@
             <h2><strong>LOST</strong>失物</h2>
             <p>失去了什么<br/>
                 lost and found... </p>
-            <a href="/school1/index.php/Home/Lost/add">添加</a>&nbsp&nbsp&nbsp
-            <a href="/school1/index.php/Home/Lost/self">我的物品</a>
+            &nbsp&nbsp&nbsp
+            <p class="leftmenu" style="float: right;">
+                <a href="/school1/index.php/Home/Lost/add">添加物品</a>
+                <a href="/school1/index.php/Home/Lost/self/user_id/<?php echo ($userid); ?>">我的物品</a>
+            </p>
         </div>
     </div>
     <div id="filter">
         <div class="wrapper">
             <table width="1000px" border="0" align="center">
-                <form action="/school1/index.php/Home/Lost/lostlist" method="post" >
+                <form action="/school1/index.php/Home/lost/lostlist?timeup%25252525253Dtimeup" method="get" >
                     <tr id="header">
                         <td width="640px" height="50px">
 
@@ -62,17 +107,16 @@
 
                                 时间排序<a href="#"><button type="submit" name="timeup" value="timeup" ><img src="/school1/Public/Home/css/images/up.jpg"  width="10" height="10"  /></button></a>&ensp;<a href="#"><button type="submit" name="timedown" value="timedown" ><img src="/school1/Public/Home/css/images/down.jpg"  width="10" height="10"  /></button></a>&ensp;&ensp;&ensp;&ensp;
 
-                               <!-- 价格排序<a href="#"><button type="submit" name="priceup" value="priceup"><img src="/school1/Public/Home/css/images/up.jpg"  width="10" height="10"  /></button></a>&ensp;<a href="#"><button type="submit" name="pricedown" value="pricedown"><img src="/school1/Public/Home/css/images/down.jpg"  width="10" height="10"  /></button></a>
-                            --></div>
+                            </div>
                 </form>
 
                 </td>
 
                 <td align="right" >
-                    <form action="/school1/index.php/Home/Lost/lostlist" method="post" >
+                    <form action="/school1/index.php/Home/lost/lostlist?timeup%25252525253Dtimeup" method="get" >
                         <div class="logo">
                             <a href="#"><button type="submit" class="ss" name="sosuo" ></button></a>
-                            <input name="sosuo" type="text" class="ssb" value="请输入关键词"/>
+                            <input name="sosuo" type="text" class="ssb" value="请输入物品名或用户名"/>
                         </div>
                     </form>
                 </td>
@@ -84,13 +128,15 @@
     </div>
     <ul class="cases wrapper">
 
-        <?php foreach($list as $key => $value){?>
+        <?php foreach($info as $key => $value){?>
 
         <input type="hidden" name='id' value="{:$_GET['id']}" />
 
 
 
-        <li class="item1"> <img src="/school1/Public/<?php echo ($value["lost_img"]); ?>" tppabs=""  width="240" height="152" alt="<?php echo ($value["lost_name"]); ?>" /> <strong></strong>
+        <li class="item1"> 
+        <?php if($value[lost_img]==null){ echo "<img src='/school1/Public/$value[lost_img1]' tppabs=''  width='240' height='152' alt='$value[lost_name]' />"; }else{ echo "<img src='/school1/Public/$value[lost_img]' tppabs=''  width='240' height='152' alt='$value[lost_name]' />";}?>
+         <strong></strong>
             <?php echo ($value["lost_name"]); ?>
             <p> <strong><?php echo ($value["lost_name"]); ?> </strong> <em>QQ：<?php echo ($value["lost_qq"]); ?><br/>
                 时间:<?php echo ($value["lost_time"]); ?></em><?php echo ($value["lost_detail"]); ?><br/>
@@ -102,8 +148,7 @@
 
     <div class="dede_pages">
         <ul class="pagelist">
-            <span class="pageinfo"><strong><?php echo ($page); ?></strong></span>
-
+            <span class="pageinfo"><strong><?php echo ($pagelist); ?></strong></span>
         </ul>
     </div>
 
@@ -113,48 +158,20 @@
 <footer>
     <div id="footerlink">
         <nav class="wrapper">
-            <a href="/school1/index.php/Home/Goods/goodslist" >二手交易</a>
-            <a href="/school1/index.php/Home/Lost/lostlist">失物招领</a>
-            <a href="/school1/index.php/Home/News/newslist">新闻</a>
-            <a href="/school1/index.php/Home/Activity/activitylist">活动</a>
-            <a href="/school1/index.php/Home/Syllabus/syllabus">课程表</a>
-            <a href="/school1/index.php/Home/Grade/grade">成绩</a>
-            <a href="#">校历</a>
-            <a href="#">地图</a>
             <a id="gotop" href="javascript:void(0)">top</a>
         </nav>
     </div>
     <div id="footerinfo">
         <div class="wrapper1">
             <h2>联系我们<strong>Contact</strong></h2>
-            <p>
-                电话：xxxxxxxx<br/>
-                传真：xxxxxxxxx<br/>
-                电子邮件：xxxxxxxxx<br/>
-                公司地址：xxxxxxxxxxx<br/>
-                备案编号：xxxxxxxx<br/>
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            <p style="font-size: 15px;">
+                
+                电子邮件：1536932302@qq.com<br/><br/>
+                公司地址：河北省石家庄市南二环东路河北师范大学<br/><br/>
+                备案编号：冀ICP备16023280号<br/><br/>
+               
             </p>
-            <img src="/school1/Public/Home/images/map.gif" id="homemap" width="258" height="190" alt="公司位置" />
-        </div>
-        <div class="links">
-            <h2>友情链接<strong>Links</strong></h2>
-            <p>
-            <ul>
-                <li>
-                    <a href="#" target='_blank'>微校</a>
-                </li>
-                <li>
-                    <a href="#" target='_blank'>微校</a>
-                </li>
-                <li>
-                    <a href="#" target='_blank'>微校</a>
-                </li>
-                <li>
-                    <a href="#" target='_blank'>微校</a>
-                </li>
-            </ul>
-            </p>
+            <img src="/school1/Public/Home/images/xy.png" id="homemap" width="258" height="190" alt="公司位置" />
         </div>
     </div>
 </footer>

@@ -1,0 +1,123 @@
+[ 2016-12-24T00:00:47+08:00 ] 101.226.79.182 /school1/index.php/Home/Goods/goodsdetail?id%3D189
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T00:32:43+08:00 ] 183.57.53.222 /school1/index.php/Home/Lost/lostdetail?id%3D25
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T00:32:52+08:00 ] 180.163.1.46 /school1/index.php/Home/Lost/lostdetail?id%3D25
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T00:50:50+08:00 ] 101.226.125.100 /school1/index.php/Home/User/myself/user_id/Array
+ERR: 1054:Champ 'Array' inconnu dans where clause
+ [ SQL语句 ] : SELECT * FROM `think_user` WHERE ( user_id=Array ) 
+
+[ 2016-12-24T00:52:47+08:00 ] 101.226.66.180 /school1/index.php/Home/Lost/lostdetail?id%3D26
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T01:07:46+08:00 ] 183.57.53.197 /school1/index.php/Home/Goods/goodsdetail?id%253D164
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T01:08:00+08:00 ] 180.153.201.66 /school1/index.php/Home/Goods/goodsdetail?id%253D164
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T02:02:51+08:00 ] 61.151.226.191 /school1/index.php/Home/Goods/goodsdetail?id%253D175
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T03:09:02+08:00 ] 180.153.206.17 /school1/index.php/Home/Goods/goodsdetail?id%25253D186
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T03:09:14+08:00 ] 123.207.36.151 /school1/index.php/Home/Goods/goodsdetail?id%25253D186
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T03:32:12+08:00 ] 140.207.185.109 /school1/index.php/Home/Lost/lostdetail?id%253D25
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T03:32:24+08:00 ] 139.199.28.51 /school1/index.php/Home/Lost/lostdetail?id%253D25
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T03:34:07+08:00 ] 101.226.33.200 /school1/index.php/Home/Goods/goodsdetail?id%253D189
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T04:17:28+08:00 ] 180.153.214.191 /school1/index.php/Home/Goods/goodsdetail?id%253D115
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T04:47:24+08:00 ] 112.65.193.13 /school1/index.php/Home/Goods/goodsdetail?id%25253D164
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T04:47:25+08:00 ] 101.226.66.191 /school1/index.php/Home/Goods/goodsdetail?id%25253D164
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T04:47:29+08:00 ] 180.153.206.24 /school1/index.php/Home/Goods/goodsdetail?id%25253D164
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T04:47:32+08:00 ] 101.226.33.237 /school1/index.php/Home/Goods/goodsdetail?id%25253D164
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T04:58:44+08:00 ] 183.57.53.177 /school1/index.php/Home/Lost/lostdetail?id%253D26
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T04:58:54+08:00 ] 101.226.33.239 /school1/index.php/Home/Lost/lostdetail?id%253D26
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T04:59:05+08:00 ] 120.84.100.149 /school1/index.php/Home/Lost/lostdetail?id%253D26
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T06:59:29+08:00 ] 183.57.53.197 /school1/index.php/Home/Goods/goodsdetail?id%25253D189
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T06:59:38+08:00 ] 180.153.214.192 /school1/index.php/Home/Goods/goodsdetail?id%25253D189
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T07:15:38+08:00 ] 101.226.65.102 /school1/index.php/Home/Goods/goodsdetail?id%25253D115
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T10:23:47+08:00 ] 220.181.108.79 /school1/index.php/Home/Activity/activitylist
+ERR: 无法加载控制器:Activity
+
+[ 2016-12-24T10:49:52+08:00 ] 61.151.218.119 /school1/index.php/Home/Lost/lostdetail?id%25253D25
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T11:00:19+08:00 ] 101.226.61.206 /school1/index.php/Home/Goods/goodsdetail?id%3D180
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T11:45:29+08:00 ] 180.153.206.20 /school1/index.php/Home/Lost/lostdetail?id%3D19
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T11:46:52+08:00 ] 180.153.205.254 /school1/index.php/Home/Goods/goodsdetail?id%2525253D115
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-24T14:21:25+08:00 ] 61.151.218.118 /school1/index.php/Home/Lost/lostdetail?id%253D19
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-24T23:26:46+08:00 ] 101.226.89.121 /school1/index.php/Home/Goods/goodsdetail?id%3D183
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+

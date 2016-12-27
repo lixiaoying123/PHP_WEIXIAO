@@ -1,0 +1,338 @@
+[ 2016-12-27T00:53:39+08:00 ] 101.226.99.195 /school1/index.php/home/goods
+ERR: 非法操作:index
+
+[ 2016-12-27T01:06:16+08:00 ] 180.163.2.88 /school1/index.php/home/goods/goodsdetail/id/43.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T01:06:27+08:00 ] 175.155.247.211 /school1/index.php/home/goods/goodsdetail/id/43.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T01:22:16+08:00 ] 183.57.53.177 /school1/index.php/Home/Lost/lostdetail?id%3D2
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T01:22:16+08:00 ] 101.226.64.174 /school1/index.php/Home/Goods/goodsdetail?id%3D6
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T01:22:26+08:00 ] 117.185.27.115 /school1/index.php/Home/Lost/lostdetail?id%3D2
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T01:55:14+08:00 ] 101.226.33.228 /school1/index.php/home/goods/goodsdetail/id/18.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T02:02:16+08:00 ] 101.226.89.116 /school1/index.php/home/goods/goodsdetail/id/52.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T02:02:28+08:00 ] 123.206.181.55 /school1/index.php/home/goods/goodsdetail/id/52.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T02:14:49+08:00 ] 112.90.82.218 /school1/index.php/home/goods/goodsdetail/id/60.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T02:14:58+08:00 ] 112.65.193.13 /school1/index.php/home/goods/goodsdetail/id/60.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T02:15:09+08:00 ] 123.206.181.55 /school1/index.php/home/goods/goodsdetail/id/60.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T02:40:55+08:00 ] 180.153.214.182 /school1/index.php/Home/Goods/goodsdetail?id%3D59
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T02:41:07+08:00 ] 124.161.241.26 /school1/index.php/Home/Goods/goodsdetail?id%3D59
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T02:49:56+08:00 ] 101.226.125.104 /school1/index.php/Home/Lost/lostdetail?id%25253D4
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T03:09:38+08:00 ] 180.153.201.79 /school1/index.php/home/goods/goodsdetail/id/53.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T03:14:54+08:00 ] 180.153.214.178 /school1/index.php/home/goods/goodsdetail/id/54.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T03:14:54+08:00 ] 61.151.217.45 /school1/index.php/home/goods/goodsdetail/id/54.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T03:14:54+08:00 ] 101.226.89.117 /school1/index.php/home/goods/goodsdetail/id/54.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T03:15:01+08:00 ] 180.153.206.21 /school1/index.php/home/goods/goodsdetail/id/54.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T04:16:15+08:00 ] 101.226.33.240 /school1/index.php/Home/Lost/lostdetail?id%253D2
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T04:16:21+08:00 ] 101.226.33.205 /school1/index.php/Home/Lost/lostdetail?id%253D2
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T04:16:24+08:00 ] 101.226.33.225 /school1/index.php/Home/Lost/lostdetail?id%253D2
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T04:16:24+08:00 ] 101.226.85.67 /school1/index.php/Home/Lost/lostdetail?id%253D2
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T04:51:56+08:00 ] 101.226.64.174 /school1/index.php/Home/Goods/goodsdetail?id%253D6
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T04:52:15+08:00 ] 180.153.214.178 /school1/index.php/Home/Goods/goodsdetail?id%253D6
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T04:52:26+08:00 ] 120.84.100.83 /school1/index.php/Home/Goods/goodsdetail?id%253D6
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T05:06:24+08:00 ] 119.147.207.158 /school1/index.php/home/goods/goodsdetail/id/43.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T05:06:33+08:00 ] 101.226.125.16 /school1/index.php/home/goods/goodsdetail/id/43.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T05:24:31+08:00 ] 180.153.206.23 /school1/index.php/Home/Goods/goodsdetail?id%253D59
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T05:51:36+08:00 ] 101.226.33.227 /school1/index.php/home/goods/goodsdetail/id/63.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T05:51:37+08:00 ] 101.226.89.123 /school1/index.php/home/goods/goodsdetail/id/63.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T05:51:37+08:00 ] 180.153.214.178 /school1/index.php/home/goods/goodsdetail/id/63.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T05:51:45+08:00 ] 101.226.51.229 /school1/index.php/home/goods/goodsdetail/id/63.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T05:51:57+08:00 ] 120.84.100.168 /school1/index.php/home/goods/goodsdetail/id/63.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T06:01:08+08:00 ] 101.226.68.215 /school1/index.php/home/goods/goodsdetail/id/62.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T06:01:17+08:00 ] 101.226.66.187 /school1/index.php/home/goods/goodsdetail/id/62.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T07:00:59+08:00 ] 183.197.99.203 /school1/index.php/Home/user/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2016-12-27T07:01:05+08:00 ] 183.197.99.203 /school1/index.php/Home/user/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='ceshi' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-27T07:01:27+08:00 ] 183.197.99.203 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='45444@qq.com' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-27T07:07:43+08:00 ] 117.185.27.115 /school1/index.php/home/goods/goodsdetail/id/50.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T07:09:17+08:00 ] 183.197.99.203 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-27T07:09:17+08:00 ] 183.197.99.203 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-27T07:58:27+08:00 ] 101.226.125.103 /school1/index.php/Home/Lost/lostdetail?id%25253D2
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T07:58:27+08:00 ] 180.153.81.212 /school1/index.php/Home/Lost/lostdetail?id%25253D2
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T07:58:33+08:00 ] 101.226.33.224 /school1/index.php/Home/Lost/lostdetail?id%25253D2
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T07:58:33+08:00 ] 101.226.51.229 /school1/index.php/Home/Lost/lostdetail?id%25253D2
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T08:02:46+08:00 ] 111.11.85.3 /school1/index.php/Home/Goods/goodsdetail?id=47
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T08:02:55+08:00 ] 111.11.85.3 /school1/index.php/Home/Goods/goodsdetail?id=47
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T09:22:12+08:00 ] 111.11.85.4 /school1/index.php/Home/user/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2016-12-27T09:22:17+08:00 ] 111.11.85.4 /school1/index.php/Home/user/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='nihao' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-27T09:22:39+08:00 ] 111.11.85.4 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='123131@qq.com' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-27T09:34:14+08:00 ] 101.226.33.204 /school1/index.php/home/goods/goodsdetail/id/62.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T10:08:04+08:00 ] 111.11.85.3 /school1/index.php/Home/Goods/goodsdetail?id=34
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T10:09:38+08:00 ] 183.57.53.177 /school1/index.php/Home/Goods/goodsdetail?id%25253D6
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T10:09:52+08:00 ] 101.226.33.226 /school1/index.php/Home/Goods/goodsdetail?id%25253D6
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T10:10:05+08:00 ] 175.154.50.247 /school1/index.php/Home/Goods/goodsdetail?id%25253D6
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T10:14:23+08:00 ] 220.181.108.181 /school1/index.php/Home/Goods/goodsdetail?id=171
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T10:16:28+08:00 ] 119.147.207.158 /school1/index.php/Home/Goods/goodsdetail?id%3D6
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T10:16:38+08:00 ] 180.153.214.188 /school1/index.php/Home/Goods/goodsdetail?id%3D6
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T10:22:15+08:00 ] 101.226.33.208 /school1/index.php/Home/Goods/goodsdetail?id%3D24
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T11:08:17+08:00 ] 183.57.53.196 /school1/index.php/Home/Goods/goodsdetail?id%3D47
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T11:08:26+08:00 ] 101.226.68.200 /school1/index.php/Home/Goods/goodsdetail?id%3D47
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T11:27:23+08:00 ] 117.185.27.113 /school1/index.php/Home/Lost/lostdetail?id%3D17
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T11:27:47+08:00 ] 117.94.204.148 /school1/index.php/Home/Lost/lostdetail?id%3D17
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T12:03:35+08:00 ] 101.226.33.220 /school1/index.php/Home/Lost/lostdetail?id%3D12
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T12:12:03+08:00 ] 101.226.89.116 /school1/index.php/Home/Lost/lostdetail?id%3D9
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T12:12:14+08:00 ] 120.83.123.84 /school1/index.php/Home/Lost/lostdetail?id%3D9
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T12:34:30+08:00 ] 101.226.33.224 /school1/index.php/Home/user/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2016-12-27T13:05:54+08:00 ] 112.65.193.14 /school1/index.php/home/goods/goodsdetail/id/56.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T13:24:36+08:00 ] 180.163.2.117 /school1/index.php/Home/Lost/lostdetail?id%3D5
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-27T13:29:34+08:00 ] 112.90.82.218 /school1/index.php/home/goods/goodsdetail/id/60.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T13:29:50+08:00 ] 180.153.214.198 /school1/index.php/home/goods/goodsdetail/id/60.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T13:32:19+08:00 ] 101.226.61.206 /school1/index.php/home/goods/goodsdetail/id/65.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T13:57:21+08:00 ] 101.226.33.217 /school1/index.php/Home/Goods/goodsdetail?id%3D64
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T14:25:16+08:00 ] 183.57.53.222 /school1/index.php/Home/Goods/goodsdetail?id%3D58
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T14:25:16+08:00 ] 112.90.82.218 /school1/index.php/home/goods/goodsdetail/id/62.html
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `username` FROM `think_user` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T14:25:25+08:00 ] 180.163.2.116 /school1/index.php/Home/Goods/goodsdetail?id%3D58
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T14:31:01+08:00 ] 101.226.89.123 /school1/index.php/Home/Goods/goodsdetail?id%3D32
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-27T14:53:35+08:00 ] 101.226.99.196 /school1/index.php/Home/Lost/lostdetail?id%3D18
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+

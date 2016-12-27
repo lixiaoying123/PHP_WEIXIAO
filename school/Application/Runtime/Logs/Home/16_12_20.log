@@ -1,0 +1,648 @@
+[ 2016-12-20T00:24:12+08:00 ] 140.207.185.109 /school1/index.php/Home/Goods/goodsdetail?id%25253D168
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-20T00:24:23+08:00 ] 119.7.217.123 /school1/index.php/Home/Goods/goodsdetail?id%25253D168
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-20T04:18:21+08:00 ] 101.226.68.200 /school1/index.php/Home/Goods/goodsdetail?id%2525253D168
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-20T07:38:47+08:00 ] 180.153.206.17 /school1/index.php/Home/Goods/goodsdetail?id%252525253D168
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-20T08:21:36+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='shenjiamei' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-12-20T08:21:54+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='1536932302@qq.com' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T08:25:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:25:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:25:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:25:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:25:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-20T08:25:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:26:04+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:26:04+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:26:04+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-20T08:26:04+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:26:04+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:26:04+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:26:18+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:26:18+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:26:18+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:26:18+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-20T08:26:18+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:26:18+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:28:25+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:28:25+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:28:25+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:28:25+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:28:25+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-20T08:28:25+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:28:25+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:34:16+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:34:16+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:34:25+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:34:25+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:34:40+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:34:40+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:35:33+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:35:33+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:35:33+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:35:33+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-20T08:35:33+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:35:33+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:35:33+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T08:36:34+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:36:34+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:37:15+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:37:15+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:37:38+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:37:38+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:37:38+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/CheckCode.aspx
+ERR: 非法操作:CheckCode.aspx
+
+[ 2016-12-20T08:38:25+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/main.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:39:18+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:39:18+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:39:18+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/CheckCode.aspx
+ERR: 非法操作:CheckCode.aspx
+
+[ 2016-12-20T08:39:25+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/CheckCode.aspx?
+ERR: 非法操作:CheckCode.aspx
+
+[ 2016-12-20T08:39:26+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/CheckCode.aspx??
+ERR: 非法操作:CheckCode.aspx
+
+[ 2016-12-20T08:39:26+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/CheckCode.aspx???
+ERR: 非法操作:CheckCode.aspx
+
+[ 2016-12-20T08:39:27+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/CheckCode.aspx????
+ERR: 非法操作:CheckCode.aspx
+
+[ 2016-12-20T08:39:34+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:39:34+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:39:35+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/CheckCode.aspx
+ERR: 非法操作:CheckCode.aspx
+
+[ 2016-12-20T08:39:38+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:39:38+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:39:38+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/CheckCode.aspx
+ERR: 非法操作:CheckCode.aspx
+
+[ 2016-12-20T08:48:45+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T08:48:45+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T09:16:33+08:00 ] 111.11.85.4 /school1/index.php/Home/goods/goodslist
+ERR: 1064:Erreur de syntaxe près de '0, 16' à la ligne 1
+ [ SQL语句 ] : select * from 	think_goodsLimit 0, 16
+
+[ 2016-12-20T09:16:38+08:00 ] 111.11.85.4 /school1/index.php/Home/goods/goodslist
+ERR: 1064:Erreur de syntaxe près de '0, 16' à la ligne 1
+ [ SQL语句 ] : select * from 	think_goodsLimit 0, 16
+
+[ 2016-12-20T09:16:38+08:00 ] 111.11.85.4 /school1/index.php/Home/goods/goodslist
+ERR: 1064:Erreur de syntaxe près de '0, 16' à la ligne 1
+ [ SQL语句 ] : select * from 	think_goodsLimit 0, 16
+
+[ 2016-12-20T09:16:38+08:00 ] 111.11.85.4 /school1/index.php/Home/goods/goodslist
+ERR: 1064:Erreur de syntaxe près de '0, 16' à la ligne 1
+ [ SQL语句 ] : select * from 	think_goodsLimit 0, 16
+
+[ 2016-12-20T09:16:38+08:00 ] 111.11.85.4 /school1/index.php/Home/goods/goodslist
+ERR: 1064:Erreur de syntaxe près de '0, 16' à la ligne 1
+ [ SQL语句 ] : select * from 	think_goodsLimit 0, 16
+
+[ 2016-12-20T09:16:39+08:00 ] 111.11.85.4 /school1/index.php/Home/goods/goodslist
+ERR: 1064:Erreur de syntaxe près de '0, 16' à la ligne 1
+ [ SQL语句 ] : select * from 	think_goodsLimit 0, 16
+
+[ 2016-12-20T09:17:05+08:00 ] 111.11.85.4 /school1/index.php/Home/goods/goodslist
+ERR: 1064:Erreur de syntaxe près de '0, 16' à la ligne 1
+ [ SQL语句 ] : select * from 	think_goodsLimit 0, 16
+
+[ 2016-12-20T10:39:37+08:00 ] 220.181.108.140 /school1/index.php/Home/goods/jubao/goods_id/
+ERR: 参数错误或者未定义:goods_id
+
+[ 2016-12-20T10:59:32+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='li' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T11:00:01+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='li@163.com' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T11:11:32+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/main.css
+ERR: 非法操作:style
+
+[ 2016-12-20T11:11:40+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/main.css
+ERR: 非法操作:style
+
+[ 2016-12-20T11:11:55+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T11:11:55+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T11:11:55+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T11:11:55+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-20T11:11:55+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-20T11:11:55+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T11:12:24+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T11:12:24+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T11:12:24+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T11:12:24+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T11:12:24+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-20T11:12:24+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-20T11:44:08+08:00 ] 101.226.33.205 /school1/index.php/Home/syllabus/CheckCode.aspx
+ERR: 非法操作:CheckCode.aspx
+
+[ 2016-12-20T12:15:00+08:00 ] 101.226.33.200 /school1/index.php/Home/Lost/lostdetail?id%3D18
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-20T12:54:36+08:00 ] 180.153.206.18 /school1/index.php/Home/Goods/goodsdetail?id%3D158
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-20T14:11:51+08:00 ] 180.153.205.253 /school1/index.php/Home/Lost/lostdetail?id%3D18
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-20T14:12:06+08:00 ] 163.204.82.248 /school1/index.php/Home/Lost/lostdetail?id%3D18
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-20T14:12:53+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T14:12:53+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T14:13:00+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/xskbcx.aspx?xh=2014011736&xm=%B6%C5%BD%A8%B2%A9&gnmkdm=N121603
+ERR: 非法操作:xskbcx.aspx
+
+[ 2016-12-20T14:15:43+08:00 ] 111.11.85.3 /school1/index.php/Home/user/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T14:15:54+08:00 ] 111.11.85.3 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T14:15:56+08:00 ] 111.11.85.3 /school1/index.php/Home/user/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T14:16:01+08:00 ] 111.11.85.3 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T14:16:02+08:00 ] 111.11.85.3 /school1/index.php/Home/user/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='12345' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T14:16:07+08:00 ] 111.11.85.3 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-12-20T14:16:17+08:00 ] 111.11.85.3 /school1/index.php/Home/user/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T14:23:18+08:00 ] 180.153.163.190 /school1/index.php/Home/Goods/goodsdetail?id%3D158
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-20T14:28:29+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='liuchang' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T14:29:04+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='457076217' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T14:29:12+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='457076217' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T14:29:44+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='457076217@qq.com' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T14:29:57+08:00 ] 111.11.85.4 /school1/index.php/Home/Lost/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T14:29:57+08:00 ] 111.11.85.4 /school1/index.php/Home/Lost/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T14:30:00+08:00 ] 111.11.85.4 /school1/index.php/Home/Lost/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T14:30:01+08:00 ] 111.11.85.4 /school1/index.php/Home/Lost/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T14:30:05+08:00 ] 111.11.85.4 /school1/index.php/Home/Goods/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T14:30:05+08:00 ] 111.11.85.4 /school1/index.php/Home/Goods/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T14:30:26+08:00 ] 111.11.85.4 /school1/index.php/Home/Goods/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T14:30:29+08:00 ] 111.11.85.4 /school1/index.php/Home/Lost/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T14:30:29+08:00 ] 111.11.85.4 /school1/index.php/Home/Lost/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T15:09:51+08:00 ] 101.226.51.226 /school1/index.php/Home/Goods/goodsdetail?id%3D112
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-20T15:47:22+08:00 ] 111.11.85.4 /school1/index.php/Home/user/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='lili' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T15:47:42+08:00 ] 111.11.85.4 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='lili@163.com' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T15:52:54+08:00 ] 101.226.65.107 /school1/index.php/Home/Lost/lostdetail?id%253D18
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-20T16:41:59+08:00 ] 101.226.33.206 /school1/index.php/Home/Goods/goodsdetail?id%253D158
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-20T17:00:25+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T17:00:25+08:00 ] 111.11.85.3 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T17:02:24+08:00 ] 111.11.85.4 /school1/index.php/Home/Lost/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T17:02:28+08:00 ] 111.11.85.4 /school1/index.php/Home/Goods/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T17:02:36+08:00 ] 111.11.85.4 /school1/index.php/Home/Lost/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T17:02:41+08:00 ] 111.11.85.4 /school1/index.php/Home/Goods/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T17:02:44+08:00 ] 111.11.85.4 /school1/index.php/Home/Lost/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T17:08:12+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T17:08:28+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='123@qq.com' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-20T17:11:30+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T17:11:30+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T17:12:26+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T17:12:26+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T17:12:26+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:26+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:26+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:26+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:26+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:26+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T17:12:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-20T17:12:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-20T17:12:35+08:00 ] 111.11.85.4 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-20T17:26:04+08:00 ] 101.226.125.16 /school1/index.php/Home/syllabus/xskbcx.aspx?xh%3D2014011736%26xm%3D%25B6%25C5%25BD%25A8%25B2%25A9%26gnmkdm%3DN121603
+ERR: 非法操作:xskbcx.aspx
+
+[ 2016-12-20T17:27:27+08:00 ] 140.207.185.112 /school1/index.php/Home/Lost/lostdetail?id%3D19
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_lost` WHERE ( lost_id= ) 
+
+[ 2016-12-20T17:50:18+08:00 ] 101.226.51.227 /school1/index.php/Home/Goods/goodsdetail?id%3D164
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-20T17:51:01+08:00 ] 101.226.33.206 /school1/index.php/Home/Goods/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T19:43:14+08:00 ] 101.226.51.227 /school1/index.php/Home/Goods/goodsdetail?id%253D112
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-20T20:26:07+08:00 ] 180.153.214.176 /school1/index.php/Home/Goods/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T20:49:14+08:00 ] 101.226.66.180 /school1/index.php/Home/Lost/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T21:26:31+08:00 ] 123.125.71.40 /school1/index.php/home/goods/update/goods_id.html
+ERR: 参数错误或者未定义:goods_id
+
+[ 2016-12-20T21:27:24+08:00 ] 112.65.193.13 /school1/index.php/Home/Goods/self
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-12-20T21:40:08+08:00 ] 180.153.206.24 /school1/index.php/Home/syllabus/xskbcx.aspx?xh%253D2014011736%2526xm%253D%2525B6%2525C5%2525BD%2525A8%2525B2%2525A9%2526gnmkdm%253DN121603
+ERR: 非法操作:xskbcx.aspx
+
+[ 2016-12-20T21:59:53+08:00 ] 123.125.71.43 /school1/index.php/home/goods/delete/goods_id.html
+ERR: 参数错误或者未定义:goods_id
+
+[ 2016-12-20T22:57:29+08:00 ] 180.163.2.117 /school1/index.php/Home/Goods/goodsdetail?id%25253D112
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+

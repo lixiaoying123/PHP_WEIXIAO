@@ -1,0 +1,36 @@
+[ 2016-12-17T00:33:50+08:00 ] 180.153.214.189 /school1/index.php/Home/Goods/goodsdetail?id%3D107
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-17T03:09:22+08:00 ] 123.125.71.18 /school1/index.php/Home/Grade/index.html
+ERR: 非法操作:index
+
+[ 2016-12-17T04:50:12+08:00 ] 101.226.99.195 /school1/index.php/Home/Goods/goodsdetail?id%253D107
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-17T04:50:24+08:00 ] 139.199.201.226 /school1/index.php/Home/Goods/goodsdetail?id%253D107
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-17T06:38:36+08:00 ] 101.226.51.226 /school1/index.php/Home/Grade/index.html
+ERR: 非法操作:index
+
+[ 2016-12-17T08:55:44+08:00 ] 117.185.27.115 /school1/index.php/Home/Goods/goodsdetail?id%25253D107
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-17T12:34:39+08:00 ] 101.226.33.239 /school1/index.php/Home/Goods/goodsdetail?id%2525253D107
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-17T13:44:48+08:00 ] 223.104.13.41 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-17T13:44:48+08:00 ] 223.104.13.41 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-17T16:18:43+08:00 ] 101.226.33.201 /school1/index.php/Home/Goods/goodsdetail?id%252525253D107
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+

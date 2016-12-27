@@ -1,5 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?>
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -9,6 +10,7 @@
     <meta name="description" content="" />
     <link rel="stylesheet" href="/school1/Public/Home/css/style.css" type="text/css" media="all" />
     <!--[if lt IE 9]><script type="text/javascript" src="/school1/Public/Home/js/html5.js" ></script><![endif]-->
+
 </head>
 <style type="text/css">
     .input-text
@@ -66,76 +68,40 @@
 
 
 <!-- 查找最顶级栏目  -->
-
 <section id="show_cases" style="background-image:url(/school1/Public/Home/images/login.jpg);background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;">
     <div class="cat_title">
         <div class="wrapper">
-            <h2><strong>Goods</strong>添加商品</h2>
+            <h2><strong>SYLLABUS</strong>课表</h2>
+            <p style="color:#333;">我的课表<br/>Our grade... </p>
         </div>
     </div>
     <article>
         <div class="wrapper">
-            
-            <div style="text-align: left;font-size: 20px; color:#999;">
-            <form action="/school1/index.php/Home/Goods/add" method="post" enctype="multipart/form-data">
-              <table>
-                <ul >
 
-                    <li>
-                        商品名称：<input name="goods_name"  type="text" id="goodsname" value="" class="input-text"/><span></span>
-                    </li>
-                    </br></br>
-                    <li>
-                        商品价格：<input name="goods_price" type="text" class="input-text"/>
-                    </li>
-                    </br></br>
-                    <li>
-
-                        商品种类：<input name="goods_type"  type="radio" value="study"  />学习
-                        <input name="goods_type"  type="radio" value="dianzi" />电子
-                        <input name="goods_type"  type="radio" value="life" />生活
-                        <input name="goods_type"  type="radio" value="other" />其他
-
-                    </li>
-                    </br></br>
-                    <li>
-                        QQ：<input name="goods_qq"  type="text" id="goodsqq" value="" class="input-text"/><span></span>
-                    </li>
-                    </br></br>
-                    <li>
-                        TEL：<input name="goods_tel"  type="text" id="goodstel" value="" class="input-text"/><span></span>
-                    </li>
-                    </br></br>
-                    <li>
-
-                        商品图片：<input name="goods_img"  type="file" /></br></br>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        &nbsp&nbsp&nbsp&nbsp<input name="goods_img1"  type="file" />
-
-
-                    </li>
-
-                    </br></br>
-                    <li>
-                        商品详情：<textarea rows="3" cols="30" name="goods_detail" ></textarea>
-                    </li>
-
-                    <?php
- $goods_time = date('Y-m-d,H:i:s',time());?>
-                    <input type="hidden" name='goods_time' value=<?php echo ($goods_time); ?> />
-                    <input type="hidden" name='user_id' value='<?php echo ($vo); ?>' />
-            </ul> 
-            </br></br></br></br>
-            <button type="submit" class="us_Submit_reg" name="sub" >提交</button>
+            <div style="text-align: center;color:#232323;">
+                <?php echo (getVerify($img)); ?>
+                <form enctype="multipart/form-data" action=/school1/index.php/Home/syllabus/login method="post" style="height: 300px;margin-top: 50px;">
+                    
+                        <div class="mui-input-row" style="opacity:0.5;color: white;width: 80%; margin:auto 10% auto">
+                            <lable style="font-size: 20px;">学号：</lable><input name="xh"  type="text" class="input-text"/>
+                        </div>  
+                        <br/>                     
+                        <div class="mui-input-row" style="opacity:0.5;color: white;width: 80%; margin: auto 10% auto">
+                            <lable style="font-size: 20px;">密码：</lable><input name="pw"  type="password" class="input-text"/>
+                           </div>
+                           <br/>
+                           <div class="mui-input-row" style="opacity:0.5;color: white;width: 80%; margin: auto 10% auto">
+                            <span><lable style="font-size: 20px;">验证码：</lable><input name="code" style="width:250px;" type="text" class="input-text"/>
+                            <img src="/school1/Public/verifyCode.jpg"/></span>
+                          </div>
+                          <br/>
+                            <input type="submit" name="" value="查询" class="input-text" style="width:100px;font-size: 20px;color: grey;" />               
+                </form>
+                </br></br>
+            </div>
         </div>
-        </div>
-        </table>
-         </form>
-    </article>
-    
-    </div>
+    </article>   
 </section>
-</form>
 <footer>
     <div id="footerlink">
         <nav class="wrapper">
@@ -161,6 +127,7 @@
 <!--[if IE 6]>
 <script type="text/javascript" src="/school1/Public/Home/js/killie6.js" ></script>
 <![endif]-->
+
 <script type="text/javascript">
     //<![CDATA[
     //Nav Start
@@ -169,85 +136,14 @@
     },function(){
         $(this).parent().stop(false,true).animate({"background-position-x":"10px",opacity:"1"},{duration:"normal", easing: "easeOutElastic"});
     });
-    //<!--- 案例 ---->
-    <!--案例详细-->
-    //Cases Start
-    if($.browser.msie&&$.browser.version==6.0&&!$.support.style){
-        $("#overview").height($("#detailed").height());
-    }
-    $(window).scroll(function(){
-        if($.browser.msie&&$.browser.version==6.0&&!$.support.style){
-            return false;
-        }
-        if($(this).scrollTop()>110){
-            $("article").css("background-position","center 80px");
-        }else{
-            $("article").css("background-position","center "+(190-$(this).scrollTop())+"px");
-        }
-    });
-    $('#case_info h1').pngFix();
-    $("#detailed img").lazyload({effect:"fadeIn",failurelimit:10});
-    $("#case_footer>.showother>.previous,#case_footer>.showother>.next").hover(function(){
-        $("span>img",this).stop(false,true).animate({"left":"-20px"},{duration:"fast", easing: "easeOutQuad"});
-        $("#show_thumb>img").hide().eq($(this).index($("#case_footer>.showother>.previous,#case_footer>.showother>.next"))).show();
-        $("#show_thumb").css({display:"block",left:$(this).css("left"),right:$(this).css("right"),bottom:"20px",opacity:"0"}).stop(false,true).animate({bottom:"25px",opacity:"1"},{duration:"fast", easing: "easeOutQuad"});
-    },function(){
-        $("span>img",this).stop(false,true).animate({"left":"0"},{duration:"fast", easing: "easeOutQuad"});
-        $("#show_thumb").stop(false,true).animate({bottom:"20px",opacity:"0"},{duration:"fast", easing: "easeOutQuad"});
-    })
-    //Cases End
-    //Cases End
+    //<!----新闻---->
+    <!---- 新闻首页 ----->
+    //Nav End
     $("#gotop").click(function(){$('body,html').animate({scrollTop:0},500);})
     var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
     document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3fe5b2b119b5fc4931e9c73e7071b0c6' type='text/javascript'%3E%3C/script%3E"));
     var bds_config = {"bdTop":203};
     $("#bdshell_js").attr("src","http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours());
     //]]>
-
-    $(document).ready(function() {
-        $("#goodsname").blur(function () {
-            var goodsname = $("#goodsname").val();
-            var span = $("#goodsname").parent().children("span");
-            if(goodsname == ""){
-                span.css('color', 'red');
-                span.text('请填写商品名称');
-            }else{
-                span.text('');
-            }
-        });
-        $("#goodsqq").blur(function() {
-            var goodsqq = $("#goodsqq").val();
-            var span = $("#goodsqq").parent().children("span");
-            if(goodsqq == ""){
-                span.css('color', 'red');
-                span.text('请填写联系方式');
-            }else {
-                var reg = /^\d{5,10}$/;
-                if(!reg.test(goodsqq)){
-                    span.css('color', 'red');
-                    span.text('QQ格式不对');
-                }else{
-                    span.text('');
-                }
-            }
-         });
-            $("#goodstel").blur(function () {
-                var goodstel = $("#goodstel").val();
-                var span = $("#goodstel").parent().children("span");
-                if (goodstel == "") {
-                    span.css('color', 'red');
-                    span.text('请填写联系方式');
-                } else {
-                    var pattern = /^1[34578]\d{9}$/;
-                    if(!pattern.test(goodstel)){
-                        span.css('color', 'red');
-                        span.text('手机号格式不对');
-                    }else{
-                        span.text('');
-                    }
-                }
-            });
-
-    })
 </script></body>
 </html>

@@ -1,17 +1,15 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=1024" />
-    <title>商品详情</title>
-
+    <title>新闻_我的网站</title>
     <meta name="keywords" content="" />
+    <meta name="description" content="" />
     <link rel="stylesheet" href="/school1/Public/Home/css/style.css" type="text/css" media="all" />
     <!--[if lt IE 9]><script type="text/javascript" src="/school1/Public/Home/js/html5.js" ></script><![endif]-->
-
 </head>
-<body >
+<body>
 
 <header style="background-color: black;">
     <div id="navbg"></div>
@@ -53,60 +51,40 @@
 
 
 
-<!-- 查找最顶级栏目  -->
-<section id="show_cases">
+<section id="newslist">
     <div class="cat_title">
         <div class="wrapper">
-            <h2><strong>GOODS</strong>商品</h2>
-            <p>发布者:<br/><a href="/school1/index.php/Home/User/myself/user_id/<?php echo ($info[0][user_id]); ?>"><?php echo ($user_name); ?></a> </p>
-            <p>发布时间:<br/><?php echo ($info[0][goods_time]); ?></p>
-            <p>浏览量:<br/><?php echo ($info[0][goods_views]); ?>次</p>
-         &nbsp&nbsp&nbsp&nbsp
-            <p>
-                <?php
- if($user_name==session('username')){ $goods_id = $info[0][goods_id]; $id = U("home/goods/update/goods_id/$goods_id"); $id1 = U("home/goods/delete/goods_id/$goods_id"); echo "<a style='text-decoration:none ; font-size:15px;' href='$id'>修改商品</a></br></br>
-                <a style='text-decoration:none ; font-size:15px;' href='$id1'>删除商品</a>";}else{echo "";}?>
-            </p>
+            <h2><strong>NEWS</strong>新闻</h2>
+            <p>最近正在折腾...<br/>Recently is to do ...</p>
 
         </div>
     </div>
-    <article>
-        <div class="wrapper">
-            <div id="overview">
-                <div class="overview_bg"></div>
-                <div id="case_info">
-                    <input type="hidden" name='id' value="<?php echo ($_GET['id']); ?>" />
-                    <h1>
-                        <?php if($info[0][goods_img]==null): ?><img src="/school1/Public/<?php echo $info[0][goods_img1] ?>" tppabs="" width="180" height="120" alt="商品" />
-                            <?php else: ?><img src="/school1/Public/<?php echo $info[0][goods_img] ?>" tppabs="" width="180" height="120" alt="商品" /><?php endif; ?>
-                    </h1>
-                    <ul>
-                        <li>名字：<?php echo $info[0][goods_name];?></li>
-                        <li>价格：<?php echo $info[0][goods_price];?></li>
-                        <li>QQ：<?php echo $info[0][goods_qq];?></li>
-                        <li>Tel：<?php echo $info[0][goods_tel];?></li>
-                    </ul>
-                    <a class="btn_blue" target="_blank" rel="external nofollow" hight="10px">商品简介</a>
-                    <div class="brief"><?php echo $info[0][goods_detail];?></div>
 
-                </div>
+    <ul class="news wrapper">
+        <?php foreach($list as $key => $value){ ?>
+
+        <input type="hidden" name='id' value="<?php echo $_GET['id'];?>" />
+
+        <li>
+            <a href="/school1/index.php/Home/News/newsdetail/news_id/<?php echo ($value["news_id"]); ?>">
+                <?php if($value[news_img]==null){ echo "<img src='/school1/Public/home/images/1.png'   width='90' height='90' alt=''/>"; }else{ echo "<img src='$value[news_img]'   width='90' height='90' alt=''/>";}?>
+                <!--<img src="/school1/Public/<?php echo ($value["news_img"]); ?>" data-original="" alt="" />--></a>
+            <div class="newslist">
+                <a href="/school1/index.php/Home/News/newsdetail/news_id/<?php echo ($value["news_id"]); ?>"><?php echo ($value["news_title"]); ?></a>
+                <span><?php echo (date('Y-m-d',$value["news_time"])); ?></span>
+                <p><?php echo mb_substr("$value[news_content]",0,100,'utf-8')."...";?></p>
             </div>
-            <div id="detailed">
-                <?php if($info[0][goods_img]!=null and $info[0][goods_img1]!=null): ?><img alt="" src="/school1/Public/<?php echo $info[0][goods_img] ?>" tppabs="" style="height: 499px; width: 700px;"/>
-                    <img alt="" src="/school1/Public/<?php echo $info[0][goods_img1] ?>" tppabs="" style="height: 499px; width: 700px;"/>
-                    <?php else: if($info[0][goods_img]==null): ?><img alt="" src="/school1/Public/<?php echo $info[0][goods_img1] ?>" tppabs="" style="height: 499px; width: 700px;"/><?php else: ?><img alt="" src="/school1/Public/<?php echo $info[0][goods_img] ?>" tppabs="" style="height: 499px; width: 700px;" /><?php endif; endif; ?>
-            </div>
-            <?php
- $user = D('user'); $id = $info[0][goods_id]; $user_id = $info[0][user_id]; $user_name = $user->where("user_id=$user_id")->getfield('username'); if($user_name != session('username')){ if($info[0][status]==0){echo "<a href='/school1/index.php/Home/goods/jubao/goods_id/$id'><button type='button'>举报</button></a>";}else{echo "<p style='color: #8B0000'>已举报</p>";} } ?>
+        </li>
+        <?php } ?>
+    </ul>
 
-        </div>
-    </article>
-    <div id="case_footer">
-        <div class="wrapper showother">
-            <a class="backlist" href="/school1/index.php/Home/Goods/goodslist" tppabs="http://mc18.eatdou.com/case/gov/">返回案例列表</a>
+    <div class="dede_pages">
+    <ul class="pagelist">
+        <span class="pageinfo"><strong><?php echo ($pagelist); ?></strong></span>
+    </ul>
+</div>
 
-        </div>
-    </div>
+
 </section>
 <footer>
     <div id="footerlink">
@@ -133,6 +111,7 @@
 <!--[if IE 6]>
 <script type="text/javascript" src="/school1/Public/Home/js/killie6.js" ></script>
 <![endif]-->
+
 <script type="text/javascript">
     //<![CDATA[
     //Nav Start
@@ -141,34 +120,9 @@
     },function(){
         $(this).parent().stop(false,true).animate({"background-position-x":"10px",opacity:"1"},{duration:"normal", easing: "easeOutElastic"});
     });
-   // <!--- 案例 ---->
-    //<!--案例详细-->
-    //Cases Start
-    if($.browser.msie&&$.browser.version==6.0&&!$.support.style){
-        $("#overview").height($("#detailed").height());
-    }
-    $(window).scroll(function(){
-        if($.browser.msie&&$.browser.version==6.0&&!$.support.style){
-            return false;
-        }
-        if($(this).scrollTop()>110){
-            $("article").css("background-position","center 80px");
-        }else{
-            $("article").css("background-position","center "+(190-$(this).scrollTop())+"px");
-        }
-    });
-    $('#case_info h1').pngFix();
-    $("#detailed img").lazyload({effect:"fadeIn",failurelimit:10});
-    $("#case_footer>.showother>.previous,#case_footer>.showother>.next").hover(function(){
-        $("span>img",this).stop(false,true).animate({"left":"-20px"},{duration:"fast", easing: "easeOutQuad"});
-        $("#show_thumb>img").hide().eq($(this).index($("#case_footer>.showother>.previous,#case_footer>.showother>.next"))).show();
-        $("#show_thumb").css({display:"block",left:$(this).css("left"),right:$(this).css("right"),bottom:"20px",opacity:"0"}).stop(false,true).animate({bottom:"25px",opacity:"1"},{duration:"fast", easing: "easeOutQuad"});
-    },function(){
-        $("span>img",this).stop(false,true).animate({"left":"0"},{duration:"fast", easing: "easeOutQuad"});
-        $("#show_thumb").stop(false,true).animate({bottom:"20px",opacity:"0"},{duration:"fast", easing: "easeOutQuad"});
-    })
-    //Cases End
-    //Cases End
+    //<!----新闻---->
+    <!---- 新闻首页 ----->
+    //Nav End
     $("#gotop").click(function(){$('body,html').animate({scrollTop:0},500);})
     var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
     document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3fe5b2b119b5fc4931e9c73e7071b0c6' type='text/javascript'%3E%3C/script%3E"));

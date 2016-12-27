@@ -1,0 +1,294 @@
+[ 2016-12-13T08:03:21+08:00 ] 111.11.85.3 /school1/index.php/Home/Syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T08:03:21+08:00 ] 111.11.85.3 /school1/index.php/Home/Syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T08:04:03+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T08:04:03+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T08:04:03+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:04:03+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-13T08:04:03+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:04:03+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:04:03+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:04:03+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:15:20+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/main.css
+ERR: 非法操作:style
+
+[ 2016-12-13T08:15:40+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T08:15:40+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:15:40+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T08:15:40+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-13T08:15:40+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:15:40+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:15:40+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:16:37+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T08:16:37+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T08:16:37+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:16:37+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-13T08:16:37+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:16:37+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T08:18:05+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='zzz' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-13T08:18:13+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='zzz@' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-13T08:18:25+08:00 ] 111.11.85.4 /school1/index.php/Home/User/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='zzz@q.c' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-13T08:18:39+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/main.css
+ERR: 非法操作:style
+
+[ 2016-12-13T08:27:28+08:00 ] 111.11.85.5 /school1/index.php/Home/user/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='dsa' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-13T08:27:42+08:00 ] 111.11.85.5 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='dwea' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-13T08:27:46+08:00 ] 111.11.85.5 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='dwea' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-13T08:27:49+08:00 ] 111.11.85.5 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='dwea' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-13T08:28:22+08:00 ] 111.11.85.5 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='dwea' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-13T08:30:08+08:00 ] 111.11.85.5 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='dwea' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015626s ]
+
+[ 2016-12-13T08:30:46+08:00 ] 111.11.85.5 /school1/index.php/Home/user/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='dwea' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015626s ]
+
+[ 2016-12-13T09:18:14+08:00 ] 123.125.71.16 /school1/index.php/Home/Goods/index.html
+ERR: 非法操作:index
+
+[ 2016-12-13T10:59:39+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T10:59:39+08:00 ] 111.11.85.4 /school1/index.php/Home/syllabus/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:24:34+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:24:34+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:24:34+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:24:34+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-13T14:24:34+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:24:34+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:24:34+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:24:37+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/main.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:24:42+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/content.aspx
+ERR: 非法操作:content.aspx
+
+[ 2016-12-13T14:24:44+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/main.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:24:58+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/main.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:25:32+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:25:32+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:25:32+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:25:32+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:25:32+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-13T14:25:32+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:26:00+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:26:00+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:26:00+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:26:00+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-13T14:26:00+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:26:00+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:26:00+08:00 ] 111.11.85.3 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:26:06+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:26:06+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-12-13T14:26:07+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:26:07+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/ext/ext-base.js
+ERR: 非法操作:js
+
+[ 2016-12-13T14:26:07+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/css/ext-all.css
+ERR: 非法操作:js
+
+[ 2016-12-13T14:26:07+08:00 ] 111.11.85.5 /school1/index.php/Home/Grade/js/extjs/ext/ext-all.js
+ERR: 非法操作:js
+
+[ 2016-12-13T16:28:20+08:00 ] 111.11.85.5 /school1/index.php/Home/User/cheakname
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `think_user` WHERE ( username='shenjiamei' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-13T16:28:53+08:00 ] 111.11.85.5 /school1/index.php/Home/User/cheakemail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE ( useremail='110@qq.com' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

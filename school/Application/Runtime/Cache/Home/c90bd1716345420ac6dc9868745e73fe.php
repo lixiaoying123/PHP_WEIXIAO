@@ -1,28 +1,14 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=1024" />
-    <title></title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <title><?php echo ($value["news_title"]); ?></title>
+    <meta name="keywords" content="企业网站,已经,悄悄,的,转变,成了,一种,当," />
+    <meta name="description" content="当是你最后一次使用的电话簿找到的产品或服务？如果你有一台电脑，平板电脑或智能手机的技术和访问，甚至有基本的了解，这可能是很难记住，当你拖着那么大，笨重的大部头，并翻阅它，" />
     <link rel="stylesheet" href="/school1/Public/Home/css/style.css" type="text/css" media="all" />
     <!--[if lt IE 9]><script type="text/javascript" src="/school1/Public/Home/js/html5.js" ></script><![endif]-->
 </head>
-<style type="text/css">
-    .input-text
-    {
-        border: 1px solid #C3CED9;
-        border-radius: 5px 5px 5px 5px;
-        font-size: 14px;
-        height: 31px;
-        line-height: 31px;
-        margin-right: 10px;
-        padding: 0;
-        width: 300px;
-    }
-</style>
 <body >
 
 <header style="background-color: black;">
@@ -66,76 +52,50 @@
 
 
 <!-- 查找最顶级栏目  -->
-
-<section id="show_cases" style="background-image:url(/school1/Public/Home/images/login.jpg);background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;">
+<section id="shownews">
     <div class="cat_title">
         <div class="wrapper">
-            <h2><strong>Goods</strong>添加商品</h2>
+            <h2><strong>NEWS</strong>新闻</h2>
+            <p>最近正在折腾...<br/>
+                Recently is to do ...</p>
+                <p>浏览量：<br/>
+                <?php echo $info[0][news_views];?>次</p>
         </div>
     </div>
-    <article>
+    <div class="category">
         <div class="wrapper">
-            
-            <div style="text-align: left;font-size: 20px; color:#999;">
-            <form action="/school1/index.php/Home/Goods/add" method="post" enctype="multipart/form-data">
-              <table>
-                <ul >
-
-                    <li>
-                        商品名称：<input name="goods_name"  type="text" id="goodsname" value="" class="input-text"/><span></span>
-                    </li>
-                    </br></br>
-                    <li>
-                        商品价格：<input name="goods_price" type="text" class="input-text"/>
-                    </li>
-                    </br></br>
-                    <li>
-
-                        商品种类：<input name="goods_type"  type="radio" value="study"  />学习
-                        <input name="goods_type"  type="radio" value="dianzi" />电子
-                        <input name="goods_type"  type="radio" value="life" />生活
-                        <input name="goods_type"  type="radio" value="other" />其他
-
-                    </li>
-                    </br></br>
-                    <li>
-                        QQ：<input name="goods_qq"  type="text" id="goodsqq" value="" class="input-text"/><span></span>
-                    </li>
-                    </br></br>
-                    <li>
-                        TEL：<input name="goods_tel"  type="text" id="goodstel" value="" class="input-text"/><span></span>
-                    </li>
-                    </br></br>
-                    <li>
-
-                        商品图片：<input name="goods_img"  type="file" /></br></br>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        &nbsp&nbsp&nbsp&nbsp<input name="goods_img1"  type="file" />
-
-
-                    </li>
-
-                    </br></br>
-                    <li>
-                        商品详情：<textarea rows="3" cols="30" name="goods_detail" ></textarea>
-                    </li>
-
-                    <?php
- $goods_time = date('Y-m-d,H:i:s',time());?>
-                    <input type="hidden" name='goods_time' value=<?php echo ($goods_time); ?> />
-                    <input type="hidden" name='user_id' value='<?php echo ($vo); ?>' />
-            </ul> 
-            </br></br></br></br>
-            <button type="submit" class="us_Submit_reg" name="sub" >提交</button>
-        </div>
-        </div>
-        </table>
-         </form>
-    </article>
-    
+            <h1><?php echo $info[0][news_title];?></h1>
+            <span>时间：<?php echo date('Y-m-d',$info[0][news_time]);?></span> </div>
     </div>
+
+    <article>
+        <div class="wrapper" id="detailed"> <span style="color: rgb(102, 102, 102); font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Arial, Verdana, sans-serif; line-height: 25px; font-size:15px; text-align: justify;"><?php echo $info[0][news_content];?></span><br style="color: rgb(102, 102, 102); font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Arial, Verdana, sans-serif; line-height: 21px; text-align: justify;" />
+        </div>
+        <div class="wrapper related">
+            <h3> 你可能还对下面的新闻感兴趣
+                <div class="share">
+                    <!-- Baidu Button BEGIN -->
+                    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"> <a class="bds_qzone"></a> <a class="bds_tsina"></a> <a class="bds_tqq"></a> <a class="bds_renren"></a> <a class="bds_t163"></a> <span class="bds_more"><a href="/school1/index.php/Home/news/newslist">更多</a></span> <a class="shareCount"></a> </div>
+                    <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>
+                    <script type="text/javascript" id="bdshell_js"></script>
+                    <script type="text/javascript">
+                        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+                    </script>
+                    <!-- Baidu Button END -->
+                </div>
+            </h3>
+            <ul>
+                <?php foreach($list as $key => $value){ ?>
+
+                <li><a href="/school1/index.php/Home/news/newsdetail/news_id/<?php echo ($value["news_id"]); ?>" tppabs=""><?php echo ($value["news_title"]); ?></a></li>
+                <?php }?>
+            </ul>
+        </div>
+        <div id="case_footer">
+            <div class="wrapper showother"> <a class="backlist" href="/school1/index.php/Home/news/newslist" tppabs="">返回案例列表</a> </div>
+        </div>
+    </article>
 </section>
-</form>
 <footer>
     <div id="footerlink">
         <nav class="wrapper">
@@ -169,85 +129,22 @@
     },function(){
         $(this).parent().stop(false,true).animate({"background-position-x":"10px",opacity:"1"},{duration:"normal", easing: "easeOutElastic"});
     });
-    //<!--- 案例 ---->
-    <!--案例详细-->
-    //Cases Start
-    if($.browser.msie&&$.browser.version==6.0&&!$.support.style){
-        $("#overview").height($("#detailed").height());
-    }
-    $(window).scroll(function(){
-        if($.browser.msie&&$.browser.version==6.0&&!$.support.style){
-            return false;
-        }
-        if($(this).scrollTop()>110){
-            $("article").css("background-position","center 80px");
-        }else{
-            $("article").css("background-position","center "+(190-$(this).scrollTop())+"px");
-        }
-    });
-    $('#case_info h1').pngFix();
-    $("#detailed img").lazyload({effect:"fadeIn",failurelimit:10});
+    //<!----新闻---->
+    <!---- 详细页 ----->
+    //Show News Start
     $("#case_footer>.showother>.previous,#case_footer>.showother>.next").hover(function(){
         $("span>img",this).stop(false,true).animate({"left":"-20px"},{duration:"fast", easing: "easeOutQuad"});
         $("#show_thumb>img").hide().eq($(this).index($("#case_footer>.showother>.previous,#case_footer>.showother>.next"))).show();
-        $("#show_thumb").css({display:"block",left:$(this).css("left"),right:$(this).css("right"),bottom:"20px",opacity:"0"}).stop(false,true).animate({bottom:"25px",opacity:"1"},{duration:"fast", easing: "easeOutQuad"});
     },function(){
         $("span>img",this).stop(false,true).animate({"left":"0"},{duration:"fast", easing: "easeOutQuad"});
-        $("#show_thumb").stop(false,true).animate({bottom:"20px",opacity:"0"},{duration:"fast", easing: "easeOutQuad"});
-    })
-    //Cases End
-    //Cases End
+    });
+    //Show News End
     $("#gotop").click(function(){$('body,html').animate({scrollTop:0},500);})
     var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
     document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3fe5b2b119b5fc4931e9c73e7071b0c6' type='text/javascript'%3E%3C/script%3E"));
     var bds_config = {"bdTop":203};
     $("#bdshell_js").attr("src","http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours());
     //]]>
-
-    $(document).ready(function() {
-        $("#goodsname").blur(function () {
-            var goodsname = $("#goodsname").val();
-            var span = $("#goodsname").parent().children("span");
-            if(goodsname == ""){
-                span.css('color', 'red');
-                span.text('请填写商品名称');
-            }else{
-                span.text('');
-            }
-        });
-        $("#goodsqq").blur(function() {
-            var goodsqq = $("#goodsqq").val();
-            var span = $("#goodsqq").parent().children("span");
-            if(goodsqq == ""){
-                span.css('color', 'red');
-                span.text('请填写联系方式');
-            }else {
-                var reg = /^\d{5,10}$/;
-                if(!reg.test(goodsqq)){
-                    span.css('color', 'red');
-                    span.text('QQ格式不对');
-                }else{
-                    span.text('');
-                }
-            }
-         });
-            $("#goodstel").blur(function () {
-                var goodstel = $("#goodstel").val();
-                var span = $("#goodstel").parent().children("span");
-                if (goodstel == "") {
-                    span.css('color', 'red');
-                    span.text('请填写联系方式');
-                } else {
-                    var pattern = /^1[34578]\d{9}$/;
-                    if(!pattern.test(goodstel)){
-                        span.css('color', 'red');
-                        span.text('手机号格式不对');
-                    }else{
-                        span.text('');
-                    }
-                }
-            });
-
-    })
-</script></body>
+</script>
+</body>
 </html>

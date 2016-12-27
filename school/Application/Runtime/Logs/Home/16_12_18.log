@@ -1,0 +1,13 @@
+[ 2016-12-18T18:47:28+08:00 ] 220.181.108.154 /school1/index.php/Home/Grade/index.html
+ERR: 非法操作:index
+
+[ 2016-12-18T21:47:28+08:00 ] 123.125.71.40 /school1/index.php/Home/about/about
+ERR: 无法加载控制器:About
+
+[ 2016-12-18T21:52:18+08:00 ] 180.153.214.152 /school1/index.php/Home/Goods/goodsdetail?id%3D159
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `think_goods` WHERE ( goods_id= ) 
+
+[ 2016-12-18T22:44:23+08:00 ] 101.226.89.117 /school1/index.php/Home/about/about
+ERR: 无法加载控制器:About
+

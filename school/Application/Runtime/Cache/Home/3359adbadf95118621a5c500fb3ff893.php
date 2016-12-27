@@ -1,0 +1,185 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0064)http://www.17sucai.com/preview/137615/2015-01-15/demo/index.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<TITLE>注册</TITLE> 
+<SCRIPT src="js/jquery-1.9.1.min.js" type="text/javascript"></SCRIPT>
+ <link rel="stylesheet" type="text/css" href="/school1/Public/Home/css/login.css">
+
+
+     
+<SCRIPT type="text/javascript">
+$(function(){
+	//得到焦点
+	$("#userpassword").focus(function(){
+		$("#left_hand").animate({
+			left: "150",
+			top: " -38"
+		},{step: function(){
+			if(parseInt($("#left_hand").css("left"))>140){
+				$("#left_hand").attr("class","left_hand");
+			}
+		}}, 2000);
+		$("#right_hand").animate({
+			right: "-64",
+			top: "-38px"
+		},{step: function(){
+			if(parseInt($("#right_hand").css("right"))> -70){
+				$("#right_hand").attr("class","right_hand");
+			}
+		}}, 2000);
+	});
+	//失去焦点
+	$("#userpassword").blur(function(){
+		$("#left_hand").attr("class","initial_left_hand");
+		$("#left_hand").attr("style","left:100px;top:-12px;");
+		$("#right_hand").attr("class","initial_right_hand");
+		$("#right_hand").attr("style","right:-112px;top:-12px");
+	});
+});
+</SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.9600.17496"></HEAD> 
+<BODY>
+<DIV class="top_div"></DIV>
+<DIV style="background: rgb(255, 255, 255); margin: -100px auto auto; border: 1px solid rgb(231, 231, 231); border-image: none; width: 600px; height: 250px; text-align: center;">
+<DIV style="width: 165px; height: 96px; position: absolute;">
+<DIV class="tou"></DIV>
+<DIV class="initial_left_hand" id="left_hand"></DIV>
+<DIV class="initial_right_hand" id="right_hand"></DIV></DIV>
+<form id='yw0' action="/school1/index.php/Home/user/register.html" method="post" >
+<P style="padding: 30px 0px 10px; position: relative;"><span class="u_logo"></span>
+         用户名：<INPUT class="ipt" type="text" placeholder="请输入用户名" name='username' id='username' value=""> <label></label>
+    </P>
+<P style="position: relative;">
+<SPAN class="p_logo"></SPAN>         
+密码：<INPUT class="ipt"  name='userpassword'  id="userpassword" type="password" placeholder="请输入密码" value="">  <label></label> 
+  </P>
+  <P style="position: relative;">
+<SPAN class="p_logo"></SPAN>         
+确认密码：<INPUT class="ipt"  name='userpassword2'  id="userpassword2" type="password" placeholder="请确认密码" value="">  <label></label> 
+  </P>
+  <P style="position: relative;">
+<SPAN class="p_logo"></SPAN>         
+学院：<INPUT class="ipt"  name='userclass'  id="userclass" type="text" placeholder="学院" value="">  <label></label> 
+  </P>
+  <P style="position: relative;">
+<SPAN class="p_logo"></SPAN>         
+邮箱：<INPUT class="ipt"  name='useremail'  id="useremail" type="text" placeholder="邮箱" value="">  <label></label> 
+  </P>
+  
+<DIV style="height: 50px; line-height: 50px; margin-top: 30px; border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: solid;">
+<P style="margin: 0px 35px 20px 45px;"><SPAN style="float: left;"><A style="color: blue;" 
+href="/school1/index.php/Home/index/index">回到首页</A></SPAN> 
+           <span style="float: right;"><input type='submit'  value="注册" style="background: rgb(0, 142, 173); padding: 7px 10px; border-radius: 4px; border: 1px solid rgb(26, 117, 152); border-image: none; color: rgb(255, 255, 255); font-weight: bold;" 
+>  </span>
+              
+</form>
+           </SPAN>         </P></DIV></DIV>
+		   <div style="text-align:center;">
+
+</div></BODY>
+<script type="text/javascript" src="/school1/Public/Home/js/jquery.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            //判断用户名是否已经注册
+            $("#username").blur(function () {
+                //console.log(11)
+                $.post('cheakname', {
+                    'username': $(this).val()
+                }, function (data) {
+                    var span = $("#username").parent().children("label");
+                    if (data ==0) {
+                        span.css('color', 'red');
+                        span.text('用户名被占用');
+                    } else if(data == 1){
+                        span.text('');
+                    }else{
+                        span.css('color', 'red');
+                        span.text('请填写用户名');
+                    }
+                })
+            });
+            //判断是否填写密码和密码的长度
+            $("#userpassword").blur(function () {
+                var userpassword = $("#userpassword").val();
+                var len = userpassword.length;
+                //console.log(length);
+                var span = $("#userpassword").parent().children("label");
+                if(userpassword==""){
+                    span.css('color', 'red');
+                    span.text('请填写密码');
+                }else{
+                    if(len>=6){
+                        span.text('');
+                    }else{
+                        span.css('color', 'red');
+                        span.text('密码长度小于6位');
+                    }
+
+                }
+            });
+            //判断密码是否一致
+            $("#userpassword2").blur(function () {
+                var userpassword2 = $("#userpassword2").val();
+                var userpassword = $("#userpassword").val();
+                var span = $("#userpassword2").parent().children("label");
+                if(userpassword==""){
+                    span.css('color', 'red');
+                    span.text('请填写密码');
+                }else{
+                    if(userpassword2==""){
+                        span.css('color', 'red');
+                        span.text('请填写确认密码');
+                    }else{
+                        if(userpassword2 == userpassword){
+                            span.text('');
+                        }else{
+                            span.css('color', 'red');
+                            span.text('两次密码不一致');
+                        }
+                    }
+                }
+            });
+            //判断是否填写学院
+            $("#userclass").blur(function () {
+                var userclass = $("#userclass").val();
+                var span = $("#userclass").parent().children("label");
+                if(userclass==""){
+                    span.css('color', 'red');
+                    span.text('请填写学院');
+                }else {
+                    span.text('');
+                }
+            });
+            //判断邮箱是否已经注册
+            $("#useremail").blur(function () {
+                //console.log(11)
+                $.post('cheakemail', {
+                    'useremail': $(this).val()
+                }, function (data) {
+                    var pattern = /^([\.a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(\.[a-zA-Z0-9_-])+/;
+                    var email = $("#useremail").val();
+                    var span = $("#useremail").parent().children("label");
+                    if (data ==0) {
+                        span.css('color', 'red');
+                        span.text('邮箱被占用');
+                    } else if(data == 1){
+                        if(!pattern.test(email)){
+                            span.css('color', 'red');
+                            span.text('邮箱格式不正确');
+                        }else{
+                            span.text('');
+                        }
+                    }else{
+                        span.css('color', 'red');
+                        span.text('请填写邮箱');
+                    }
+                })
+            });
+        })
+    </script>
+</HTML>

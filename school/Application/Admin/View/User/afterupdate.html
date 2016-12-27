@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/style.css" />
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/jquery2.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/jquery2.sorted.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/ckform.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/common.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/jquerypicture.js"></script>
+    
+    <style type="text/css">
+        body {font-size: 20px;
+            padding-bottom: 40px;
+            background-color:#e9e7ef;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<br>
+ <font color="#777777"><strong>请修改管理员资料：</strong></font>
+<form action="" method="post" class="definewidth m20" enctype="multipart/form-data">
+<table class="table table-bordered table-hover m10" style="margin-left:10px;margin-top:3px;">
+    
+   
+   <br>
+    <input type="hidden" name="admin_id" value="{$info.admin_id}" />
+    <tr>
+        <td class="tableleft">登录名</td>
+        <td><input type="text" name="admin_name" value="{$info.admin_name}"/></td>
+        <td class="tableleft">密码</td>
+        <td><input type="password" name="admin_pwd" value="{$info.admin_pwd}"/></td>
+    </tr>
+    <tr>
+        <td class="tableleft">真实姓名</td>
+        <td><input type="text" name="admin_tname" value="{$info.admin_tname}"/></td>
+        <td class="tableleft">学院</td>
+        <td><input type="text" name="admin_class" value="{$info.admin_class}"/></td>
+    </tr>
+	<tr>
+        <td class="tableleft">QQ</td>
+        <td><input type="text" name="admin_qq" value="{$info.admin_qq}"/></td>
+        <td class="tableleft">邮箱</td>
+        <td><input type="text" name="admin_email" value="{$info.admin_email}"/></td>
+    </tr>
+</table>
+    <table>
+        <td >&nbsp&nbsp&nbsp管理员权限：</td>
+        <td>
+            <?php
+              if($info[count]==0){
+              echo '<input name="count"  type="radio" value="0"  checked/>普通管理员';
+                echo '<input name="count"  type="radio" value="2"  />管理商品';
+                echo '<input name="count"  type="radio" value="3" />管理物品';
+                echo '<input name="count"  type="radio" value="4" />管理新闻';
+                echo '<input name="count"  type="radio" value="5" />管理活动';
+                }else if($info[count]==2){
+            echo '<input name="count"  type="radio" value="0"  />普通管理员';
+            echo '<input name="count"  type="radio" value="2"  checked/>管理商品';
+            echo '<input name="count"  type="radio" value="3" />管理物品';
+            echo '<input name="count"  type="radio" value="4" />管理新闻';
+            echo '<input name="count"  type="radio" value="5" />管理活动';
+                }else if($info[count]==3){
+            echo '<input name="count"  type="radio" value="0"  />普通管理员';
+            echo '<input name="count"  type="radio" value="2"  />管理商品';
+            echo '<input name="count"  type="radio" value="3" checked/>管理物品';
+            echo '<input name="count"  type="radio" value="4" />管理新闻';
+            echo '<input name="count"  type="radio" value="5" />管理活动';
+                }else if($info[count]==4){
+            echo '<input name="count"  type="radio" value="0"  />普通管理员';
+            echo '<input name="count"  type="radio" value="2"  />管理商品';
+            echo '<input name="count"  type="radio" value="3" />管理物品';
+            echo '<input name="count"  type="radio" value="4" checked/>管理新闻';
+            echo '<input name="count"  type="radio" value="5" />管理活动';
+            }else{
+            echo '<input name="count"  type="radio" value="0"  />普通管理员';
+            echo '<input name="count"  type="radio" value="2"  />管理商品';
+            echo '<input name="count"  type="radio" value="3" />管理物品';
+            echo '<input name="count"  type="radio" value="4" />管理新闻';
+            echo '<input name="count"  type="radio" value="5" checked/>管理活动';
+                }
+            ?>
+        </td>
+    </table>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-primary">提交</button>
+</form>
+ <img src="" id="img0" > 
+ 
+<script>	
+$("#GoodsPicture").change(function(){
+	var objUrl = getObjectURL(this.files[0]) ;
+	console.log("objUrl = "+objUrl) ;
+	if (objUrl) {
+		$("#img0").attr("src", objUrl) ;
+	}
+}) ;
+</script>
+</body>
+</html>
+<script>
+   $(function (){       
+		$('#backid').click(function(){
+				window.location.href="goodsQuery.html";
+		 });
+    });
+		
+</script>
+

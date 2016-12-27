@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/Css/style.css" />
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/jquery2.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/jquery2.sorted.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/ckform.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Admin/Js/common.js"></script>
+
+    <style type="text/css">
+        body {font-size: 20px;
+            padding-bottom: 40px;
+            background-color: #e9e7ef;
+        }
+
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media ( max-width : 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+<form class="form-inline definewidth m20" action="__SELF__" method="get">
+    <font color="#777777"><strong>物品名称：</strong></font>
+    <input type="text" name="sosuo" id="menuname" class="abc input-default" placeholder="" value="">&nbsp;&nbsp;
+    <button type="submit" class="btn btn-primary">查询</button>
+    </a>
+</form>
+<table class="table table-bordered table-hover definewidth m10">
+    <thead>
+    <tr>
+        <th>物品名称</th>
+        <th>物品类别</th>
+        <th>上传者</th>
+        <th>上传日期</th>
+        <th>状态</th>
+    </tr>
+    </thead>
+    <?php foreach($info as $key => $value){
+    if($value[user_id]==null){
+    $username = $admin->where("admin_id='%s'",$value[admin_id])->getField('admin_name');
+    $id = U("admin/user/afterdetail/admin_id/$value[admin_id]");}
+    else{
+    $username = $user->where("user_id='%s'",$value[user_id])->getField('username');
+    $id = U("admin/user/frontdetail/user_id/$value[user_id]");}
+
+    if($value[lost_type]==1){
+    $value[lost_type] = '学习';
+    }else if($value[lost_type]==2){
+    $value[lost_type] = '电子';
+    }else if($value[lost_type]==3){
+    $value[lost_type] = '生活';
+    }else{
+    $value[lost_type] = '其他';}
+    if($value[status]==1){
+    $value[status]='被举报';
+    }else{
+    $value[status]='';}
+    ?>
+    <input type="hidden" name='id' value="{:$_GET['id']}" />
+    <tr>
+        <td>{$value.lost_name}</td>
+        <td>{$value.lost_type}</td>
+
+        <?php echo "<td><a href='$id'>".$username."</a></td>";?>
+
+        <!--<td><a href="__MODULE__/user/frontdetail/user_id/{$value.user_id}">{$username}</a></a></td>-->
+
+
+        <td>{$value.lost_time}</td>
+        <td><a href="__MODULE__/lost/lostdetail/lost_id/{$value.lost_id}" style="color: #8B0000">{$value.status}</a></td>
+
+    </tr>
+    <?php } ?>
+
+</table>
+<div class="dede_pages">
+    <ul class="pagelist">
+        <span class="pageinfo"><strong>{$pagelist}</strong></span>
+    </ul>
+</div>
+
+</body>
+</html>
